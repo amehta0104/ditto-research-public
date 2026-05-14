@@ -38,6 +38,19 @@ Window: 2026-05-12 → 2026-05-14 (last 48 hours)
   - Source: https://www.biometricupdate.com/202605/tech-vendors-urge-ppp-decentralized-digital-id-models-at-id4africa
   - Date: 2026-05-13
 
+- **Australia commits AU$654.3M to digital ID expansion in 2026-27 Federal Budget — May 12-13 2026** — Treasurer Jim Chalmers handed down the 2026-27 Federal Budget on 12 May 2026, including AU$654.3 million (approx. US$474.7M) over four years to expand the Australian Government Digital ID System (AGDIS). Breakdown: AU$357.4M to the Australian Taxation Office (ATO) to run and upgrade the myID mobile credential — explicitly including "additional security controls and functionality" and a recently published RFI for biometric liveness detection; AU$135.2M to Services Australia as Digital ID system administrator and myGov LinkID maintainer; AU$98M to the ACCC for regulatory functions. New policy signal: the private sector will be able to access AGDIS from December 2026. Practical significance: a sovereign government committing half a billion dollars to a national digital ID platform with embedded biometric liveness RFI is both a large-scale market validation signal and a comparable for European EUDI Wallet procurement conversations. The liveness RFI is a direct procurement signal in Ditto's core capability area.
+  - Source: https://www.biometricupdate.com/202605/digital-id-program-gets-650m-for-expansion-in-australian-federal-budget
+  - Source: https://mobileidworld.com/australia-funds-digital-id-expansion-for-online-government-services/
+  - Source: https://budget.gov.au/content/03-productivity.htm
+  - Source: https://ia.acs.org.au/article/2026/federal-budget-2026-the-biggest-tech-announcements.html
+  - Date: 2026-05-12 (budget); 2026-05-13 (reporting)
+
+- **UK digital ID bill: 3 million petition signatures, EFF and Liberty opposition surface as bill formally tabled — 14 May 2026** — Follow-up to yesterday's King's Speech confirmation: the Biometric Update article "UK lawmakers prepare for contentious national digital ID, police biometrics bills" (14 May) details the political terrain the Digital Identity and Authentication Bill must navigate. Nearly three million people signed a parliamentary petition opposing the bill; the EFF filed a formal submission to the consultation that closed 5 May arguing against scope creep and surveillance risks; Liberty (UK) filed a separate response. The specific legislative flashpoint is whether the voluntary character of digital ID will be "on the face of the bill" (confirmed by Darren Jones, Chancellor of the Duchy of Lancaster) or whether employment-check mandates will be introduced via secondary legislation. Significance for identity vendors: the UK is becoming the most politically contentious digital ID deployment in 2026, which creates a governance-design story — the technical architecture (voluntary, privacy-preserving, no central database) has to be legible to a suspicious public, not just compliant. Ditto's selective-disclosure / ZKP angle fits squarely here.
+  - Source: https://www.biometricupdate.com/202605/uk-lawmakers-prepare-for-contentious-national-digital-id-police-biometrics-bills
+  - Source: https://www.eff.org/deeplinks/2026/05/eff-submission-uk-consultation-digital-id
+  - Source: https://cybernews.com/privacy/uk-digital-id-kings-speech-cybersecurity-bill/
+  - Date: 2026-05-14
+
 (KuppingerCole EIC 2026 opens 19 May Berlin — no fresh pre-event announcements in window. No analyst publications or category M&A in window.)
 
 ### Pillar 3: EUDI / eIDAS2
@@ -52,17 +65,19 @@ Window: 2026-05-12 → 2026-05-14 (last 48 hours)
 
 (no new material in window)
 
-### Pillar 6: Identity verification (IDV)
+### Pillar 6: LATAM
 
-(no new material in window — NIST NCCoE draft Special Publication 1800-42A on mDL for financial institutions remains in comment period; the comment window closed 8 May, outside this 48h window. No fresh iBeta PAD certifications or vendor M&A in window. QuantoSei API launch on 13 May is vendor PR rather than substantive IDV signal — flagged for completeness but not citable.)
+- **idLAC cross-border digital ID initiative reaches MVP stage across 12 LATAM/Caribbean countries — ID4Africa Frontline plenary, 13-14 May 2026** — RedGEALC Deputy Director Paula Brenes presented the idLAC initiative at ID4Africa 2026's Day 2 "Frontline" plenary in Abidjan: the cross-border digital ID interoperability and data-exchange project for Latin America and the Caribbean has moved from concept to minimum viable product (MVP), with 12 countries now implementing and Brazil, Argentina, Chile, Colombia and Uruguay the furthest along. The initiative is designed to enable cross-border digital ID interoperability across the Caribbean and LATAM region — a LATAM equivalent of the EUDI interoperability push but built from the ground up among sovereign states. Significance: this is the first concrete "LATAM wallet interoperability" MVP signal, and the five leading countries (Brazil, Argentina, Chile, Colombia, Uruguay) are all -relevant markets. The initiative is positioned as enabling citizens to use their national digital ID across borders without requiring individual bilateral agreements.
+  - Source: https://www.biometricupdate.com/202605/the-frontline-of-digital-identity-innovation-spans-the-global-south
+  - Date: 2026-05-13 (Day 2 ID4Africa AGM, Abidjan)
 
-### Pillar 7: Fraud / Deepfakes
+### Pillar 7: Identity verification (IDV) / Fraud / Deepfakes
 
-(no new material in window — no named bank deepfake incident disclosures in window; no fresh primary-source vendor fraud reports in window. Sumsub 2025-26 and Veriff 2026 Identity Fraud Reports remain the strongest aggregate-data anchors from earlier in the cycle. The Mythos / Mistral story under Pillar 1 has a fraud read-across but the primary regulator framing is operational resilience, not fraud.)
+(no new material in window — no named bank deepfake incident disclosures in window; no fresh primary-source vendor fraud reports in window. ABN AMRO deepfake 46-accounts case (iProov blog analysis) was published approximately late April 2026 and the Amsterdam court ordered further investigation in March 2026 — both outside the 48-hour window. The Mythos / Mistral story under Pillar 1 has a fraud read-across but the primary regulator framing is operational resilience, not fraud.)
 
 ### Pillar 8: Mobile trust & app security
 
-(no new material in window — Anatsa campaign on Google Play surfaced in April 2026, outside window; no fresh named-bank mobile malware disclosures in window. The Elderson AI-cyber warning under P1 implicates mobile banking app integrity but is not a mobile-trust-specific finding.)
+(no new material in window — Anatsa campaign on Google Play surfaced in April 2026, outside window; no fresh named-bank mobile-malware disclosures or ThreatLabz/Zimperium publications in window. The Elderson AI-cyber warning under P1 implicates mobile banking app integrity but is not a mobile-trust-specific finding.)
 
 ### Pillar 9: Passwordless / Split-key
 
@@ -78,7 +93,7 @@ Window: 2026-05-12 → 2026-05-14 (last 48 hours)
 
 ### Pillar 10: ZKPs in practice
 
-(no new material in window — France Identité ZKP unlinkable age verification covered in yesterday's delta; OpenID Connect ASC 1.0 implementer's-draft vote continues through 15 May (vote concludes tomorrow). No fresh OIDF, W3C VC or selective-disclosure publications in window. Drafter note: tomorrow's delta should capture the ASC 1.0 vote outcome.)
+(no new material in window — France Identité ZKP unlinkable age verification covered in yesterday's delta; OpenID Connect ASC 1.0 implementer's-draft vote continues through 15 May (vote concludes tomorrow). Drafter note: tomorrow's delta should capture the ASC 1.0 vote outcome.)
 
 ### Pillar 11: Age assurance & privacy attributes
 
@@ -88,6 +103,6 @@ Window: 2026-05-12 → 2026-05-14 (last 48 hours)
 
 ## Run summary
 
-- Findings by pillar: P1: 2 | P2: 2 | P3: 0 | P4: 0 | P5: 0 | P6: 0 | P7: 0 | P8: 0 | P9: 2 | P10: 0 | P11: 0 → Total: **6 findings** (2 of which — ECB Elderson + Mistral — form a paired story)
+- Findings by pillar: P1: 2 | P2: 4 (CSC, ID4Africa, Australia budget, UK contention) | P3: 0 | P4: 0 | P5: 0 | P6: 1 (idLAC MVP) | P7: 0 | P8: 0 | P9: 2 | P10: 0 | P11: 0 → Total: **9 findings** (2 of which — ECB Elderson + Mistral — form a paired story; Australia budget and idLAC MVP are new vs. first run of today's cycle)
 - Override-worthy: ECB / Frank Elderson AI cyber warning + Mistral European bank cyber-AI response
 - Delta path: research/2026-05-14-cycle-delta.md
