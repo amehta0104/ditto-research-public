@@ -6,6 +6,8 @@ Window: 2026-05-13 → 2026-05-15 (last 48 hours)
 
 1. **OpenID Connect Advanced Syntax for Claims (ASC) 1.0 — two-week member vote to advance to Implementer's Draft concludes today, 15 May 2026** — The eKYC & IDA working group recommended ASC 1.0 for approval; the vote ran 1–15 May and closes today, advancing the spec to Implementer's Draft (the milestone signalling readiness for trial implementations and interop testing across wallet ecosystems). The two components — "Selective Abort and Omit" and "Transformed Claims" — include deriving an age-verification result from a birthdate without exposing the full date of birth: the canonical privacy-preserving, claim-level disclosure control. The 05-13 and 05-14 deltas both flagged this as the item today's delta should capture. Angle: "ZKP gets the headlines; claim-level transformation is the part that ships. OpenID just moved the spec that lets a relying party get 'over 18 = true' from a birthdate — no DOB, no residue — to implementer's-draft status. Privacy-preserving disclosure is now a protocol feature, not a research demo."
 
+2. **Unico launches Brazil's first national-scale digital age verification tool — 14 May 2026** — Unico (Latin America's largest digital identity network, 1.5 billion identity checks in 2025) launched a Privacy by Design age verification product powered by a single selfie, 99.98% accuracy, liveness detection, AES encryption, and automatic PII masking; the product delivers a binary yes/no age-assurance response — no date of birth, no identity data transmitted — in direct response to Brazil's Digital ECA (Law No. 15,211/2025, in force 17 March 2026). Brazil mandated age assurance and got a production-grade national-scale solution within 60 days. Angle: "Brazil set a deadline in March, and by May the largest identity network in LATAM had a production tool in market. The technical answer — single selfie, binary response, no data residue — is the same design pattern France Identité shipped in the EUDI sandbox last week. Privacy-preserving age assurance is converging on a single architecture across continents."
+
 ---
 
 ## New findings
@@ -16,7 +18,12 @@ Window: 2026-05-13 → 2026-05-15 (last 48 hours)
 
 ### Pillar 2: Identity orchestration
 
-(no new material in window — KuppingerCole EIC 2026 opens 19 May Berlin ("Digital Trust Through Intelligent Identity"; Identity Fabrics, NHI orchestration and decentralised identity on the agenda); the 2026 Research Compass flags consolidation/platformisation specifically in PAM, CIEM, Identity Orchestration and NHI management, but no pre-event vendor announcements or category M&A landed in window. CSC Trust Without Borders Summit Bogotá (13–14 May) was captured in the 05-14 delta.)
+- **Trinsic 2026 Digital ID Opportunity Zones report — published 14 May 2026** — Drawing on a database of 300+ digital identity schemes, Trinsic ranked countries by the maturity and commercial usability of their digital identity ecosystems for relying parties wanting to accept reusable digital IDs at onboarding. Green-zone countries (strong adoption, usable today): Netherlands, Denmark, Estonia, Latvia, Lithuania, Brazil, India, Italy — with South Korea and Nigeria as new 2026 entrants. Yellow-zone (adoption potential, higher complexity): US, France, Sweden, Norway, Singapore, Indonesia, UAE, Japan, Poland, Philippines. The US remains yellow because mDL and private-sector IDs cover ~38% of the adult population (roughly 100 million people). Practical significance: first 2026 market-readiness map for vendors and relying parties accepting reusable IDs — Brazil's green-zone status is a direct LATAM anchor; the US yellow classification will be a relevant benchmark for any post arguing the EU is ahead on deployability. Complements the idLAC MVP story from 05-14 on the "LATAM is in the production tier now" narrative.
+  - Source: https://www.biometricupdate.com/202605/trinsic-maps-top-global-markets-for-reusable-digital-identity-in-2026
+  - Source: https://trinsic.id/digital-id-opportunity-zones/
+  - Date: 2026-05-14
+
+(KuppingerCole EIC 2026 opens 19 May Berlin — "Digital Trust Through Intelligent Identity"; Identity Fabrics, NHI orchestration and decentralised identity on the agenda. No pre-event vendor announcements or category M&A landed in window. CSC Trust Without Borders Summit Bogotá (13–14 May) was captured in the 05-14 delta.)
 
 ### Pillar 3: EUDI / eIDAS2
 
@@ -29,6 +36,12 @@ Window: 2026-05-13 → 2026-05-15 (last 48 hours)
 ### Pillar 5: Customer onboarding
 
 (no new material in window — the Fenergo "State of the Industry" survey (70% of firms lost clients to inefficient onboarding, up from 67%/48%; KYC/AML AI adoption 42%→82%; ~$72.9m average annual AML/KYC spend) is a strong onboarding-economics anchor but was published 7 October 2025, well outside the window; flagged here so the drafter can cite it without re-running search, dated correctly as 2025 data.)
+
+### LATAM
+
+- **Unico launches Brazil's first national-scale digital age verification tool — 14 May 2026** — Unico (Latin America's largest digital identity network; 1.5 billion identity checks in 2025) launched a proprietary age verification product on 14 May. Architecture: single selfie, 99.98% accuracy, built-in liveness detection, AES encryption, automatic PII masking. The product returns a binary yes/no to an age-assurance query — no date of birth, no issuer reference, no identity data transmitted — complying with data-minimisation and selective-disclosure principles. Built with Privacy by Design architecture in response to Brazil's Law No. 15,211/2025 (Digital Statute of the Child and Adolescent / Digital ECA), which entered into force 17 March 2026 and imposed age assurance requirements on platforms and services. Brazil went from law in force to national-scale production tool in 60 days. Significance: Brazil is Unico's home market, the regulation is real and in force, and the architecture (binary response, zero data residue) mirrors what France Identité deployed in the EUDI sandbox. Cross-cite Pillar 11 for age-assurance read-across.
+  - Source: https://www.biometricupdate.com/202605/unico-launches-digital-proof-of-age-tool-in-brazil
+  - Date: 2026-05-14
 
 ### Pillar 6: Identity verification (IDV)
 
@@ -56,12 +69,16 @@ Window: 2026-05-13 → 2026-05-15 (last 48 hours)
 
 ### Pillar 11: Age assurance & privacy attributes
 
-(no new material in window — Ofcom's anticipated May report on platform responses to its 30 April age-assurance demands (Facebook, Instagram, Roblox, Snapchat, TikTok, YouTube) has still not published as of this cycle; the broader statutory age-assurance report (end-July 2026) and app-stores report (January 2027) remain the next published-date anchors. The ASC 1.0 "Transformed Claims" age-derivation mechanism under Pillar 10 is the relevant privacy-attribute signal this cycle.)
+- **Unico Brazil age verification (cross-pillar from LATAM): binary, Privacy by Design, no data residue — 14 May 2026** — See full finding under LATAM. The age-assurance design pattern is the signal: Unico's product delivers a yes/no result with liveness detection from a single selfie, exposing no date of birth and storing no PII — identical in architecture to France Identité's ZKP age-check sandbox (05-13 delta) and to the "Transformed Claims" pattern in OpenID ASC 1.0 (Pillar 10, this delta). A convergence signal: the major national-scale age-verification tools launched in 2026 — across Brazil (Unico), France (France Identité), and the OpenID standard track — all use the same privacy-preserving, binary-response, no-residue design. This is the architecture the age-assurance market is standardising on.
+  - Source: https://www.biometricupdate.com/202605/unico-launches-digital-proof-of-age-tool-in-brazil
+  - Date: 2026-05-14
+
+(Ofcom's anticipated May report on platform responses to its 30 April age-assurance demands — Facebook, Instagram, Roblox, Snapchat, TikTok, YouTube — has still not published as of this cycle; the broader statutory age-assurance report (end-July 2026) and app-stores report (January 2027) remain the next published-date anchors.)
 
 ---
 
 ## Run summary
 
-- Findings by pillar: P1: 0 | P2: 0 | P3: 0 | P4: 0 | P5: 0 | P6: 0 | P7: 0 | P8: 0 | P9: 0 | P10: 1 | P11: 0 → Total: **1 finding**
-- Override-worthy: OpenID Connect ASC 1.0 advancement to Implementer's Draft — vote concludes today
+- Findings count by pillar: P1: 0 | P2: 1 (Trinsic Opportunity Zones) | P3: 0 | P4: 0 | P5: 0 | LATAM: 1 (Unico Brazil age verification) | P6: 0 | P7: 0 | P8: 0 | P9: 0 | P10: 1 (OpenID ASC 1.0) | P11: 1 (cross-pillar Unico) → Total: **3 distinct findings** (Unico counted once across LATAM/P11)
+- Override-worthy: (1) OpenID Connect ASC 1.0 advancement to Implementer's Draft — vote concludes today; (2) Unico Brazil age verification launch — 60-day law-to-production-tool signal, converges with France Identité architecture
 - Delta path: research/2026-05-15-cycle-delta.md
