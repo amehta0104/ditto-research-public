@@ -1,58 +1,68 @@
 # Cycle Delta — 2026-06-24
 
-Window: 2026-06-22 → 2026-06-24 (last 48 hours — midweek)
+Window: 2026-06-22 → 2026-06-24 (last 48 hours)
 
 ## Override-worthy this cycle
 
-1. **EU member states reach a compromise on the EUDI Wallet's contentious biometric facial-image requirement — portrait images become opt-out-able at member-state discretion.** Account: / company. Angle: "The EU just blinked on mandatory facial images in the digital identity wallet — and the privacy debate it triggered is exactly why an identity stack has to be built so the sensitive attribute never has to be exposed in the first place. Optional-portrait politics is a band-aid; data-minimisation by architecture is the cure."
+(none — Estonia AI agent ID (P7, June 17) is the only uncovered material; it is a proposal without implementation timeline and does not warrant bumping an override slot that should be held for June 25 EUDI ON or June 26 FATF outputs)
 
 ## New findings
 
 ### Pillar 1: Banking & Payments
-(no new material in window — Binance/HCMC remains formally unresolved; aggregator articles now framing it as a "rejection" are retellings of the June 16 Reuters report and the June 17–18 reversal, with no new in-window primary HCMC decision confirmed. Binance's customer-update commitment "before June 30" still stands. MiCA CASP July 1 hard stop now 7 days out (83%-unlicensed enforcement wave covered June 19). AMLA CDD RTS final draft due July 10 on track. PSD3/PSR OJEU still unscheduled.)
+(no new material in window — Binance HCMC formal decision still pending, last report June 16; MiCA CASP 83%-unlicensed enforcement wave covered in June 19 delta; AMLA CDD RTS on track for July 10 submission; PSD3/PSR OJEU publication still unscheduled)
 
 ### Pillar 2: EUDI / eIDAS2
-- **EU member states agree to make the EUDI Wallet portrait/facial image optional — Committee compromise reached June 18, surfaced June 23; missed by prior deltas (2026-06-23)** — EU member states reached a compromise on the contentious biometric requirement in the implementing rules for the European Digital Identity (EUDI) Wallet. Under the amended rule, individual member states **may** (but are not required to) let users opt out of including a biometric facial image in their wallet's person-identification data: "EU member states can choose to make the portrait image optional, allowing users to decline adding a portrait image." The agreement, struck at a Committee meeting on **18 June 2026**, resolves a standoff between the European Commission — which had pushed for mandatory portrait images — and a bloc of member states objecting on privacy grounds. The amended rule is now set to be formally adopted (no fixed adoption date given). Digital-rights advocates argue the compromise falls short: Thomas Lohninger of Epicenter.works warned that citizens "pressured and forced to use it" by employers or authorities undermines any theoretical opt-out, and flagged GDPR-enforcement friction where relying parties sit in different member states. For Ditto: this is a live, on-pillar EUDI governance signal that lands squarely on the privacy-by-design / data-minimisation thesis — the political fix (make the portrait optional) is precisely the problem ZKP-/selective-disclosure-based architecture solves structurally (prove the attribute, never hand over the raw biometric). It also previews relying-party fragmentation risk that orchestration is positioned to absorb. Note: the underlying Committee vote (June 18) sits just outside the strict 48h window, but the development was published June 23 (in-window) and appears in no prior delta — every EUDI block from June 18 through June 23 reported "no new material."
-  - Source: https://www.biometricupdate.com/202606/eudi-wallet-biometric-compromise-draws-privacy-concerns
-  - Date: 2026-06-23 (published) / 2026-06-18 (Committee agreement)
+(no new material in window — EUDI ON Berlin Community Event is tomorrow, June 25; Germany DIdG Bundestag first reading pending post-June 25; no Commission, ENISA, or member-state announcement confirmed in window)
 
 ### Pillar 3: Fraud / Deepfakes
-(no new material in window — EU AI Act Art. 50 Code of Practice / July 22 signatory deadline / Aug 2 enforcement covered in June 23 delta; no named-bank deepfake incident or new vendor report dated inside window.)
+(no new material in window — EU AI Act Art. 50 Code of Practice July 22 signatory deadline covered in June 23 delta; no named bank deepfake incident or new regulator enforcement action confirmed in window)
 
 ### Pillar 4: ZKPs in practice
-(no new material in window — no new bank ZKP pilot or OpenID4VP / mDL deployment confirmed in window. The June 23 EUDI biometric-opt-out compromise (Pillar 2) is the cleanest adjacent hook for the selective-disclosure / data-minimisation narrative this cycle.)
+(no new material in window — no new bank ZKP pilot, OpenID4VP/VCI update, or mDL deployment confirmed in window)
 
 ### Pillar 5: Passwordless / split-key
-(no new material in window — GCash 90M-user in-app OTP rollout covered June 22; Philippines AFASA real-time FMS deadline June 25 (1 day out) and BSP Circular 1213 SMS-OTP hard stop June 30 (6 days out) both confirmed with no extension per BSP Deputy Governor Capule; no sector-wide compliance-rate data published in window.)
+(no new material in window — GCash in-app OTP rollout covered in June 22 delta; Philippines BSP Circular 1213 June 30 hard stop is 6 days away; UK People's Panel report not yet published)
 
 ### Pillar 6: LATAM
-(no new material in window — Brazil Drex privacy/digital-currency bill cleared its Chamber committee June 9 (outside window, advancing through further committees and both chambers); no new BCB/CNBV/Superfinanciera/CMF announcement confirmed in window.)
+(no new material in window — Brazil Drex privacy bill advancing to Finance & Taxation Committee and floor vote, no scheduling confirmed; no BCB/CNBV/Superfinanciera/CMF announcement in window)
 
 ### Pillar 7: Identity ecosystem
-(no new material dated inside window — Rubrik × Strata Identity (identity orchestration/resilience M&A, June 9) and NewCore $66M stealth exit (June 16) both predate the window and were not net-new to this cycle's 48h net; SailPoint/Entro (June 15) and AppViewX agentic identity at Identiverse (June 16) already logged. The agentic/non-human-identity consolidation theme continues but produced no in-window discrete event.)
+- **Estonia becomes first country to propose national digital IDs for AI agents — scoped identity with explicit authorization limits (June 17, 2026; missed by prior cycles)** — Prime Minister Kristen Michal approved the Eesti.ai advisory council proposal to issue AI agents their own "personal identification codes" — scoped digital identities separate from the humans, companies, or organizations the agents act for. The ID would encode the agent's authorization scope: view-only vs. edit vs. payment-authorizing, and up to what limit. This is the first formal government-level framework mapping AI agents to an identity/authorization stack rather than treating them as undifferentiated extensions of their human operators. No implementation timeline yet — approved in principle by the PM; no legislation tabled. The precedent matters: Estonia pioneered e-residency, X-Road, and machine-readable eID infrastructure, and its concept of scoped agent credentials maps directly to the ARF v2.0 delegation-chain and authorized-representative provisions in the EUDI framework. For Ditto: the agentic identity gap just acquired its first government blueprint. Identity vendors building wallet-native agent authorization and delegation flows now have Estonia as the regulatory reference point for the EU's agentic identity architecture. Ongoing secondary analysis from Biometric Update, Gizmodo, Decrypt, The Register.
+  - Source: https://www.bloomberg.com/news/articles/2026-06-17/estonia-to-grant-ai-bots-legal-rights-with-personal-id-numbers
+  - Source: https://www.theregister.com/ai-and-ml/2026/06/18/estonia-intends-to-recognize-ai-agents-with-digital-ids/5258087
+  - Source: https://news.err.ee/1610060290/estonia-to-become-first-country-to-issue-id-codes-to-ai-agents
+  - Source: https://www.biometricupdate.com/202606/estonias-ai-agent-id-plan-raises-new-questions-about-digital-identity (secondary analysis, late June 2026)
+  - Date: 2026-06-17 (announced; missed by June 17–19 and June 22–23 delta cycles)
 
 ---
 
 ## Next-cycle anchors (updated)
 
-- **Philippines AFASA real-time FMS deadline (June 25)** — 1 day; mandatory fraud-management systems for entities ≥ ₱75M avg monthly network value; watch for BSP compliance commentary.
-- **EUDI ON Community Event (June 25, Berlin / Café Moskau)** — 1 day; "EUDI Wallet Summit for Digital Innovators," English-language, hackathon team finals, member-state status updates; watch for any movement on the biometric-opt-out implementing rule (Pillar 2) and Germany DIdG Bundestag context.
-- **FATF Best Practices on Travel Rule Supervision (June 26)** — 2 days; confirmed publication; affects VASP KYC/identity data-sharing obligations globally (~73% of jurisdictions have Travel Rule laws; ~59% of those have issued no supervisory findings yet).
-- **Binance HCMC outcome / customer update (before June 30)** — formal decision still pending; Binance committed to a further update before June 30.
-- **Philippines BSP Circular 1213 SMS-OTP hard stop (June 30)** — 6 days; binary liability shift for non-compliant BSP-supervised institutions.
-- **MiCA CASP hard deadline (July 1)** — 7 days; 83% of EU crypto platforms still unlicensed; France AMF June 30 hard stop; named cease-operations announcements expected.
-- **EUDI Wallet biometric-opt-out implementing rule — formal adoption** — TBD; agreed at Committee June 18; watch for the adopted text and any per-member-state divergence.
-- **AMLA CDD RTS final draft → Commission (July 10)** — 16 days.
-- **EU AI Act Code of Practice signatory deadline (July 22)** — 28 days; presumption-of-conformity benefit for signatories.
-- **EU AI Act Article 50 enforcement (August 2)** — 39 days; deepfake labelling, AI-content marking, chatbot disclosure become binding.
-- **Germany DIdG Bundestag first reading** — TBD post-EUDI ON; watch for scheduling and committee assignment.
+- **EUDI ON Community Event (June 25, Berlin — tomorrow)** — Germany DIdG at ministerial level; hackathon winning-team presentations; member-state progress updates; watch for specific DIdG first-reading date, ARF/certification announcements, and any relying-party deadline signals.
+- **Philippines AFASA FMS deadline (June 25 — tomorrow)** — real-time fraud management systems mandatory for all entities processing ≥ ₱75M average monthly network value; watch for BSP compliance commentary.
+- **FATF Best Practices on Travel Rule Supervision (June 26)** — 2 days; confirmed publication; will affect VASP KYC/identity data-sharing obligations globally.
+- **Philippines BSP Circular 1213 OTP hard stop (June 30)** — 6 days; binary liability shift for non-compliant BSP-supervised institutions; watch for sector-wide compliance-rate data.
+- **Binance HCMC board vote (before June 30)** — formal HCMC authorization decision still pending; Binance promised a customer update before June 30; watch for formal rejection or grant.
+- **MiCA CASP hard deadline (July 1)** — 7 days; 83% of EU crypto platforms still unlicensed; France AMF June 30 hard stop; named firm cease-operations announcements expected week of June 30.
+- **EU AI Act Code of Practice signatory deadline (July 22)** — 28 days; see June 23 delta P3 finding.
+- **AMLA CDD RTS final draft → Commission (July 10)** — 16 days; first single EU rulebook for standard/simplified/enhanced CDD.
+- **EU AI Act Article 50 enforcement (August 2)** — 39 days; deepfake labelling, AI content marking, chatbot disclosure obligations become binding.
+- **Germany DIdG Bundestag first reading** — TBD post-June 25 EUDI ON; watch for scheduling and committee assignment.
+- **UK People's Panel on Digital ID — report publication** — TBD; consultation closed June 21; Ipsos writing final report; government response expected in coming weeks.
 - **PSD3/PSR OJEU publication** — H2 2026, no confirmed date; may slip to September.
+- **Japan JSDA phishing-resistant MFA mandatory deadline** — "summer 2026"; watch for JSDA formal finalization.
+- **FIDO Alliance Agentic Authentication TWG** — spec development ongoing; watch for draft specification publication.
+- **SailPoint/Entro acquisition close** — Q3 FY2027; watch for completion and integration roadmap.
+- **Estonia AI agent digital ID** — watch for formal legislation tabling, implementation timeline, or other EU member-state responses.
 
 ---
 
 ## Run summary
 
-- Findings count by pillar: P1: 0 | P2: 1 (**EUDI Wallet biometric facial-image opt-out compromise** — Committee June 18, surfaced June 23, missed by prior deltas) | P3: 0 | P4: 0 | P5: 0 | P6: 0 | P7: 0 — **Total: 1 unique finding**
-- Override-worthy: **1** — the EUDI biometric-opt-out compromise. It's the only post-ready item this cycle and it lands directly on Ditto's privacy-by-design / data-minimisation thesis (the political "make the portrait optional" fix is exactly what ZKP-/selective-disclosure architecture renders unnecessary). Strong fit. Hold the override slot here over the June 25 EUDI ON / June 26 FATF forward anchors.
+- Findings count by pillar: P1: 0 | P2: 0 | P3: 0 | P4: 0 | P5: 0 | P6: 0 | P7: 1 (Estonia AI agent digital ID, June 17, missed by prior cycles) — **Total: 1 unique finding**
+- Override-worthy: **(none)** — the P7 finding is relevant but a proposal without timeline; override slot held for EUDI ON (tomorrow) or FATF (June 26) outputs.
 - Delta path: research/2026-06-24-cycle-delta.md
-- Next-cycle anchors: the June 25 (AFASA FMS + EUDI ON Berlin) / June 26 (FATF Travel Rule) / June 30 (BSP OTP + Binance) / July 1 (MiCA) compliance cluster is now imminent — expect the next two cycles to be event-dense.
+
+---
+
+_Note: Worker API (ditto-slack-bot.dittobot.workers.dev) is blocked by the environment's network egress allowlist; skill/pillar files were not loaded from the worker. Delta written directly to GitHub. To restore full skill-file context, add `ditto-slack-bot.dittobot.workers.dev` to the environment's network egress allowlist._
