@@ -1,96 +1,76 @@
 # Cycle Delta — 2026-07-01
 
-Window: 2026-06-29 → 2026-07-01 (last 48 hours — Wednesday run)
+Window: 2026-06-29 → 2026-07-01 (last 48 hours — Tuesday run)
 
 ## Override-worthy this cycle
 
-1. **MiCA's transitional period ends TODAY (July 1): the deadline the last two cycles previewed is now live, and the AMF has put criminal prosecution behind it — unlicensed firms serving EU customers after today face prosecution, not just wind-down letters.** Account: / company. Angle: The eve-of-deadline math (244 authorised CASPs vs 3,000+ pre-MiCA registrants; Binance out; Poland 1,400→1) is now the reality, and France's AMF president Marie-Anne Barbat-Layani has said firms that keep serving EU customers without a licence face **criminal prosecution** — the enforcement teeth are real. The single market opens to whoever built licensable identity, KYC and compliance infrastructure and closes to everyone who didn't. That's the moat, and today is the day it gets tested.
-
-2. **Network-layer identity goes mainstream in France: Bouygues Telecom joins Aduna (the Ericsson-founded telco JV) to sell carrier-level, silent identity verification and SIM-swap defence via CAMARA network APIs — a fresh alternative to the document-and-selfie stack.** Account:. Angle: While document-and-selfie IDV buckles under deepfakes, a parallel model is scaling — the network operator answering true/false questions ("did this SIM change recently?", "does this number match this line?") invisibly at the carrier layer, no user friction. It's an orchestration story: banks and fintechs now have another signal source to compose into onboarding and step-up. Ditto's platform is the layer that orchestrates these signals; the news is that the signals are proliferating.
+1. **UK DVS Trust Framework v1.0 final — first statutory rules for orchestration service providers take effect September 1.** Account: / company. Angle: The UK government has formally codified the orchestration layer into law. DVS Trust Framework 1.0 creates the first statutory certification category for orchestration service providers — the companies that connect verified credentials to relying parties. OSPs must register and confirm their orchestrated services are on the DVS register. Certified providers earn the UK CertifID trust mark. After September 1, the regulatory perimeter is drawn and the category is named.
 
 ## New findings
 
 ### Pillar 1: Banking & Payments
-- **MiCA transitional period ends July 1 (TODAY) — deadline live; AMF confirms criminal prosecution for unlicensed firms that keep serving EU customers** — The bloc-wide MiCA hard deadline the June 29/30 deltas previewed is now in force. As of the run, ~244 CASPs are authorised against 3,000+ pre-MiCA VASP registrations (under-18% conversion by the widely-cited denominator); ESMA holds firm on no extensions. New in-window enforcement detail: France's **AMF** has instructed unlicensed crypto firms to cease operations from July 1, and AMF president **Marie-Anne Barbat-Layani** warned that companies continuing to serve EU customers without a licence after the deadline face **criminal prosecution** — under MiCA Art. 111, penalties reach €5M for individuals and up to 12.5% of annual turnover for legal entities, plus permanent bans and register removal. Unlicensed entities' five options: license, stop, orderly wind-down, transfer clients to an authorised CASP, or merge. Same event as the June 29/30 override (Binance exit / 244-vs-3,000 math); logged here for the deadline-day transition and the AMF criminal-prosecution posture, not as a fresh discovery. For Ditto: the demand-side proof that MiCA is an identity/KYC/compliance filter is now live, with criminal liability behind it.
+- **MiCA CASP enforcement now live (July 1, 2026) — ESMA, EBA, AMLA in tripartite coordinated enforcement mode; ~83% of EU crypto firms remain unlicensed** — The MiCA CASP transitional period has officially expired as of today. ESMA's June 23 public statement (ESMA75-113276571-1710) formalised the coordinated enforcement architecture: ESMA and NCAs are now actively monitoring significant unauthorised cross-border CASPs and will take coordinated action where needed, working jointly with EBA and AMLA. NCAs must verify that wind-down plans exist and are being implemented; penalties for unauthorised operation reach €5M or 3% of global annual turnover. As of today, approximately 204 firms hold full CASP authorisation out of 1,200+ pre-MiCA registrants — an ~83% unlicensed rate. Named exits confirmed before the deadline: Binance (EU, France relicensing pending), KuCoin (banned Austria, February 2026), Gemini (withdrew April 2026). Named licensed survivors: Coinbase, Kraken, OKX, Crypto.com. The AMLA involvement is notable: this is the first enforcement context in which AMLA coordinates directly with ESMA on a named-sector action, signalling how the AML authority intends to operate alongside capital markets regulators going forward. For Ditto: the post-July 1 EU crypto market concentrates KYC/AML/identity demand into a smaller set of highly regulated firms — the firms most likely to procure enterprise-grade identity infrastructure with robust CDD controls.
+  - Source: https://www.esma.europa.eu/sites/default/files/2026-06/ESMA75-113276571-1710_Public_Statement_MiCA_transitional_period_ends.pdf
   - Source: https://finance.yahoo.com/markets/crypto/articles/july-1-mica-deadline-looms-103215096.html
-  - Source: https://www.pymnts.com/cryptocurrency/2026/july-1-mica-deadline-threatens-thousands-of-european-crypto-firms/
-  - Date: 2026-07-01 (deadline) / AMF prosecution warning in-window
-- **Philippines BSP Circular 1213 SMS-OTP hard stop passed June 30 — no in-window sector compliance data yet** — The BSP Circular 1213 deadline requiring every BSP-supervised bank, e-money issuer and payment operator to stop using SMS/email OTPs for high-risk transactions passed **June 30, 2026** with no extension (Deputy Governor Elmore Capule: "we are not extending it"). Under AFASA the deadline is a liability shift — non-compliant institutions must reimburse scam losses; compliant ones get liability protection. As of this run no sector-wide compliance-rate figure or BSP enforcement statement has been published inside the window. Anchor firing; watch July 1–3 for the first compliance data. (See P9 for the passwordless/passkey angle.)
-  - Source: https://ipid.tech/blog/bsp-circular-1213-philippines-compliance
-  - Date: 2026-06-30 (deadline)
+  - Source: https://blog.kraken.com/product/kraken-institutional/mica-enforcement-begins-july-1
+  - Date: 2026-07-01 (enforcement active); ESMA public statement 2026-06-23
 
-### Pillar 2: Identity orchestration
-- **Bouygues Telecom joins Aduna to offer network-based identity verification and SIM-swap defence via CAMARA APIs (June 30, 2026)** — French operator **Bouygues Telecom** joined **Aduna** — the Ericsson-founded joint venture backed by major global telcos — to expose three network APIs (identity verification and fraud prevention) to banking, insurance, e-commerce and social platforms. Built on the **GSMA CAMARA** open-standard framework, the model matches real-time SIM cryptographic tokens and network-routing telemetry at the carrier layer to answer simple true/false questions — e.g. the date of a subscriber's last SIM-card change, or whether a mobile number matches its line — stopping **SIM-swap fraud and account takeover** during high-stakes financial transactions with no end-user friction. For Ditto: a fresh, fast-scaling identity signal source that composes into onboarding and step-up alongside document/biometric checks — an orchestration-layer story (more signals to unify), and a mobile-trust one (silent anti-SIM-swap). Cross-listed P8/P9.
-  - Source: https://idtechwire.com/bouygues-telecom-joins-aduna-to-offer-network-based-identity-services/
-  - Source: https://adunaglobal.com/newsroom/aduna-and-bts-partner-to-tackle-fraud-prevention-and-identity-verification/
-  - Date: 2026-06-30
-- **Hopae integrates India's digital-identity stack into its Hopae Connect orchestration platform (June 30, 2026)** — Orchestration vendor **Hopae** added India's digital-identity components to Hopae Connect, letting enterprises verify credentials against India's public identity infrastructure to simplify cross-border corporate onboarding and compliance. Minor but on-pillar: the orchestration layer is where national identity stacks get plugged into enterprise onboarding — the same integration problem Ditto's platform addresses. Ecosystem datapoint (do not name in posts).
-  - Source: https://idtechwire.com/id-tech-digest-june-30-2026/
-  - Date: 2026-06-30
+### Pillar 2: EUDI / eIDAS2
+(no new material in window — EUDI ON Community Event (June 25, Berlin) brought ~400 stakeholders including German Federal Digital Minister Karsten Wildberger; Germany's DIdG advances through Bundestag with January 2, 2027 EUDI Wallet launch confirmed; no new ARF update, Commission implementing act, or ENISA announcement published in June 29–July 1 window. September 2026 member-state wallet-readiness deadline remains the next hard anchor.)
 
-### Pillar 3: EUDI / eIDAS2
-- **Romania will build its national EUDI Wallet (RoEUDIW) on Germany's open-source architecture — first named cross-border reuse of a member-state wallet stack (June 30, 2026)** — Romania announced it will adopt **Germany's open-source EUDI Wallet solution** for its national wallet (RoEUDIW), following "a rigorous evaluation of EUDI Wallet solutions at various implementation stages in other member states," explicitly to cut cost and avoid building complex infrastructure from scratch ahead of the **end-2026** "at least one wallet per member state" deadline. RoEUDIW will store national ID, driving licence, diplomas and health card with selective disclosure and user-held data control; Romania's Ministry of Internal Affairs will provide the app and issue the PID. For Ditto: a concrete signal that the EUDI wallet layer is consolidating onto shared open-source stacks (Germany's model as a de-facto reference implementation) — the credential/wallet becomes commoditised infrastructure, and the differentiated value moves up to orchestration, relying-party integration and trust-framework compliance, which is Ditto's layer. Ties to the confirmed **January 2, 2027** German state-driven wallet launch tracked in prior deltas.
-  - Source: https://www.biometricupdate.com/202606/romania-chooses-german-eudi-wallet-for-national-customization
-  - Source: https://www.romania-insider.com/romania-digital-wallet-german-solution-june-2026
-  - Date: 2026-06-30
+### Pillar 3: Fraud / Deepfakes
+(no new primary-source report or named bank incident published in window — Shufti Deepfake Fraud Index covered in June 26 delta; PYMNTS synthetic borrower report covered in June 30 delta; WEF "Unmasking Cybercrime" report is January 2026.)
 
-### Pillar 4: KYC / AML compliance
-(no new material in window — AMLA's three Feb 9 draft RTS remain on track for final-draft submission to the Commission by **July 10, 2026** (9 days); AMLR single rulebook applies from July 10, 2027. FATF's seventh targeted update on VA/VASP standards (approved June 17–19 plenary) still due "next month" — July 2026. No new AMLA consultation, FATF publication or named sanctions action confirmed inside June 29–July 1.)
+### Pillar 4: ZKPs in practice
+(no new bank ZKP pilot, OpenID4VP, or mDL deployment announced in window.)
 
-### Pillar 5: Customer onboarding
-(no new material in window — no discrete onboarding-KPI benchmark or sector study published inside June 29–July 1. The onboarding-adjacent items this cycle are the network-API signal source (P2, Bouygues/Aduna) and the mDL certification scheme (P6, Fime), both of which reduce document-upload friction in third-party onboarding.)
+### Pillar 5: Passwordless / split-key
+(no new material in window — BSP Circular 1213 hard stop and liability-shift covered as completed in June 30 delta. FIDO Alliance World Passkey Day data (5B passkeys, May 6) and OpenAI FIDO membership (April) covered in prior cycles. No new FIDO spec or regulator OTP-sunset publication in window.)
 
-### Pillar 6: Identity verification (IDV)
-- **Fime launches an mDL certification scheme against ISO/IEC 18013-5:2021 + 18013-7:2025 — first of a planned family of digital-identity certification schemes (June 30, 2026)** — Testing and certification specialist **Fime** launched a **mobile driving licence (mDL) certification scheme** validating wallet providers, reader providers and governments against **ISO/IEC 18013-5:2021** and **ISO/IEC TS 18013-7:2025**, covering both in-person and remote mDL presentation, with governance aligned to ISO/IEC 17065 and testing under ISO/IEC 17025. Fime frames it as a response to the industry "moving quickly from fragmented pilots to large-scale deployments, where trust and interoperability are critical." For Ditto: independent, standards-based certification infrastructure is a leading indicator that mDL/verifiable-credential verification is industrialising — the market is shifting from "can we do liveness" to "can we prove interoperability and trust at scale," which is the higher-assurance verification layer Ditto Verify plays in. Cross-listed P10 (mDL selective disclosure / ISO 18013-5).
-  - Source: https://www.fime.com/blog/news-21/post/fime-launches-mobile-driving-license-mdl-certification-scheme-711
-  - Source: https://idtechwire.com/fime-launches-certification-scheme-for-mobile-drivers-licenses/
-  - Date: 2026-06-30
+### Pillar 6: LATAM
+(no new material in window — Brazil Drex privacy bill second committee passage (June 12) covered in June 15 delta; BCB architecture unchanged. No new BCB, CNBV, Superfinanciera, CMF, or SBS publication confirmed in June 29–July 1 window.)
 
-### Pillar 7: Fraud / Deepfakes
-(no new named in-window incident — the circulating deepfake-fraud coverage (Shufti Deepfake Fraud Index; synthetic ID now #1 fraud threat; PYMNTS "banks falling for deepfake borrowers") is earlier-2026/republished material already logged in prior deltas. No named-bank deepfake event dated June 29–July 1 confirmed. Anchor: EU AI Act Art. 50 — July 22 Code-of-Practice signatory deadline / August 2 enforcement of deepfake labelling.)
+### Pillar 7: Identity ecosystem
+- **Jumio integrates Trinsic — first major IDV incumbent to accept EUDI wallets, mDLs, and reusable credentials across 60+ countries/territories at scale (June 25, 2026 — missed by June 29 cycle)** — Jumio announced a partnership with Trinsic (a digital ID gateway) that embeds acceptance of mobile driver's licences, EU Digital Identity Wallet credentials, eIDs, and reusable credentials directly into Jumio's verification pipeline alongside its existing biometric checks. Jumio claims this makes it "the first identity intelligence provider to offer Global Digital ID acceptance at scale," covering 60+ countries and territories. Mechanism: Trinsic's credential gateway handles credential-type accreditation so Jumio customers do not each bear the per-format integration burden; Jumio brings liveness detection, biometric matching, and risk analysis on top. Strategic signal for Ditto: the major IDV incumbents are no longer treating credential wallets as a competitive threat — they are integrating them. The competitive battleground shifts to *which* credential formats a relying-party integration supports and how smoothly the biometric + credential composition layer works. The orchestration question — who manages the composition of credential types, trust frameworks, and relying-party obligations — is the layer Ditto occupies and the layer the UK DVS Framework (below) has now formally named.
+  - Source: https://www.jumio.com/about/press-releases/global-digital-id-acceptance/
+  - Source: https://fintechnews.sg/133677/regtech/jumio-digital-id-acceptance-trinsic/
+  - Source: https://www.biometricupdate.com/202606/jumio-integrates-trinsic-to-expand-reach-in-growing-idv-market
+  - Date: 2026-06-25 (Jumio press release / Morningstar 20260625046687); missed by June 29 cycle which covered the same window
 
-### Pillar 8: Mobile trust & app security
-- **Network-layer anti-SIM-swap goes commercial in France (Bouygues Telecom × Aduna) — cross-listed from P2** — The carrier-layer identity/fraud-prevention APIs Bouygues Telecom is exposing via Aduna (CAMARA) directly target **SIM-swap fraud and account takeover** at the network signalling layer — the same attack surface that the accessibility-abusing banking trojans logged in prior deltas (Rokarolla, OverlayPhantom) exploit downstream. The mobile-trust thesis reads both sides: malware intercepts OTPs on-device; network APIs verify SIM/line integrity off-device. No new named Android-malware family or SS7/SIM-swap breach dated June 29–July 1 confirmed this cycle. (Full detail in P2.)
-  - Source: https://idtechwire.com/bouygues-telecom-joins-aduna-to-offer-network-based-identity-services/
-  - Date: 2026-06-30
-
-### Pillar 9: Passwordless / split-key
-- **Singpass adds device-biometric passkey login — Singapore's national digital ID moves off SMS OTP (June 30, 2026)** — Singapore's **Singpass** national digital-identity platform added **passkey** support, letting citizens access government services with on-device face or fingerprint hardware, eliminating SMS one-time passwords and cutting phishing exposure. For Ditto: a national-scale datapoint on the exact OTP-sunset trajectory the BSP Circular 1213 hard stop (P1, June 30) is forcing on Philippine banks — device-bound, phishing-resistant auth is becoming the default at the population level, not just a regulator mandate. Reusable as the "this is where authentication is going, everywhere" companion to the OTP-ban regulatory story. (BSP OTP hard stop cross-listed from P1.)
-  - Source: https://idtechwire.com/id-tech-digest-june-30-2026/
-  - Date: 2026-06-30
-- **BSP Circular 1213 SMS-OTP hard stop (June 30) — the live passwordless regulatory event; cross-listed from P1.** BSP points firms to biometrics, FIDO passkeys and adaptive auth. No new FIDO/passkey-adoption release inside June 29–July 1 (FIDO's World Passkey Day 2026 figures — 5B passkeys, 90% awareness — and the Agentic Authentication WG are out of window, logged earlier).
-
-### Pillar 10: ZKPs in practice
-(no standalone new material in window — the Fime mDL certification scheme (P6) is the cycle's ZKP/selective-disclosure-adjacent item: ISO/IEC 18013-5/18013-7 mDL verification is the transport for selective-disclosure credential presentation. No new bank ZKP pilot or OpenID4VP/VCI deployment confirmed inside June 29–July 1.)
-
-### Pillar 11: Age assurance & privacy attributes
-(no new platform enforcement action or EU age-verification-app update confirmed inside June 29–July 1. South Korea's June 30 move to formalise optional facial-recognition (with mandatory liveness) for mobile-phone subscriber sign-up is IDV/age-adjacent but not core age-assurance policy — noted as a watch item only. Next hard anchor: **Ofcom's statutory age-assurance effectiveness report, due July 17, 2026**.)
+- **UK DVS Trust Framework v1.0 final — first statutory rules for orchestration service providers; September 1 enforcement; UK CertifID trust mark introduced (June 10, 2026 — missed by all prior cycles)** — GOV.UK published the final v1.0 of the UK Digital Verification Services Trust Framework on June 10, 2026, following a March 3 pre-release. The most significant change for Ditto's market: the first dedicated statutory rules for **orchestration service providers (OSPs)** have been formalised. Key requirements: (1) OSPs must be able to confirm whether the services they orchestrate are on the DVS register — either via live API or cached register lookups; (2) a single service can be certified as an OSP concurrently with other roles (identity SP, attribute SP, holder SP), enabling compound-architecture certification; (3) the framework has been renamed from DIATF to "UK digital verification services trust framework" to align with the Data (Use and Access) Act. Enforcement date: September 1, 2026, when the framework comes into force once the first conformity assessment body is accredited. Providers already certified at the gamma (0.4) stage move across via a tailored delta uplift rather than a full re-audit. Certified providers earn the UK CertifID trust mark — a government-endorsed signal of statutory compliance that relying parties and procurers can use to assess vendors. For Ditto: this is the regulatory moment that formalises the orchestration layer as a certifiable, regulated category in the UK's statutory identity framework. The orchestration service provider role is now explicitly recognised and separately regulated, distinct from identity providers, attribute providers, and holder services — each role now carries its own certification requirement and trust-mark eligibility. Ditto's go-to-market in the UK has a formal regulatory hook from September 1. The Jumio/Trinsic integration above shows incumbents converging on the same orchestration/composition problem from the IDV side.
+  - Source: https://www.gov.uk/government/publications/uk-digital-verification-services-trust-framework-1-0/uk-digital-verification-services-trust-framework-1-0-pre-release
+  - Source: https://enablingdigitalidentity.blog.gov.uk/2026/06/10/final-release-of-the-1-0-trust-framework-what-does-it-mean-for-you/
+  - Source: https://idtechwire.com/uk-publishes-pre-release-of-dvs-trust-framework-1-0-for-digital-verification-services/
+  - Date: 2026-06-10 (final published); pre-release 2026-03-03; enforcement 2026-09-01; missed by all prior cycles
 
 ---
 
 ## Next-cycle anchors (updated)
 
-- **MiCA CASP deadline — LIVE (July 1 today)** — transitional period ended bloc-wide; AMF criminal-prosecution posture confirmed. Watch July 1–4 for named cease-operations/relocation confirmations and the first post-deadline NCA/ESMA enforcement actions.
-- **Binance France MiCA application** — Binance is out of the EU as of today, pursuing an AMF licence (existing DASP registration E2022-037); any French CASP licence lands well after July 1. Watch the AMF process.
-- **Philippines BSP Circular 1213 compliance data** — deadline passed June 30; watch July 1–3 for sector compliance-rate data or a BSP enforcement statement.
-- **AMLA CDD / sanctions / business-relationship RTS final drafts → Commission (July 10)** — 9 days.
-- **FATF seventh targeted update on VA/VASP Standards (July 2026)** — DeFi, stablecoins, unhosted wallets.
+- **AMLA CDD / sanctions / business-relationship RTS final drafts → Commission (July 10)** — 9 days. Four mandates legally due. Watch for AMLA publication and Commission delegated act timeline.
+- **FATF seventh targeted update on VA/VASP Standards (July 2026)** — Approved at June 17–19 plenary; due for publication July 2026; addresses DeFi, stablecoins, unhosted wallets. Watch fatf-gafi.org.
 - **Ofcom statutory age-assurance effectiveness report (July 17)** — 16 days.
-- **EU AI Act Code of Practice signatory deadline (July 22)** — 21 days.
-- **EU AI Act Article 50 enforcement (August 2)** — 32 days; deepfake labelling, AI-content marking, chatbot disclosure become binding.
-- **Germany DIdG Bundestag first reading** — TBD; state-driven EUDI Wallet launch confirmed January 2, 2027; now also the open-source reference stack for Romania's RoEUDIW (P3) — watch for further member-state adoptions.
-- **EUDI Wallet biometric-portrait opt-out implementing rule — formal adoption** — TBD (agreed at Committee June 18).
-- **UK People's Panel on Digital ID — report publication** — TBD; deliberation concluded June 21; relevant to the UK Finance bank-led ID / Select ID model.
-- **UK Finance bank-led digital ID / TISA Select ID** — watch for operator/liability/pricing resolution (six banks named: Barclays, HSBC, Lloyds, Nationwide, NatWest, Santander).
-- **PSR APP-fraud reimbursement independent review report (Q2/Q3 2026)** — watch for publication.
-- **PSD3/PSR OJEU publication** — H2 2026, no confirmed date.
-- **Japan JSDA phishing-resistant MFA mandatory deadline** — "summer 2026".
+- **FSB AI Sound Practices consultation deadline (July 22)** — 21 days. G20-level AI governance vocabulary being written now; final report to G20 Finance Ministers October 2026.
+- **EU AI Act Code of Practice signatory deadline (July 22)** — 21 days. Window closes 18:00 CEST; signatories receive legal presumption of conformity with Article 50 deepfake/AI-content disclosure obligations.
+- **EU AI Act Article 50 enforcement (August 2)** — 32 days. Deepfake labelling, chatbot disclosure, AI-content marking become binding.
+- **UK DVS Trust Framework 1.0 enforcement (September 1)** — 62 days. First conformity assessment body accreditation; OSP certification active; UK CertifID trust mark introduced. New anchor.
+- **France AMF MiCA enforcement** — Watch for AMF action against continuing unlicensed operators now July 1 deadline has passed; Binance France application timeline.
+- **BSP Circular 1213 post-deadline compliance data** — Watch for BSP compliance rate announcement or first enforcement action.
+- **Germany DIdG Bundestag first reading** — TBD; summer recess likely delays to September; EUDI Wallet launch confirmed January 2, 2027.
+- **UK People's Panel on Digital ID — report publication** — TBD post-June 21 deliberation close (Ipsos writing final report).
+- **PSR APP-fraud reimbursement independent review (Frontier Economics)** — Q2/Q3 2026; not yet published.
+- **PSD3/PSR OJEU publication** — H2 2026; no confirmed date; may slip to September.
+- **Japan JSDA phishing-resistant MFA mandatory deadline** — "summer 2026"; watch for JSDA formal finalization.
+- **FSB AI Sound Practices final report → G20 Finance Ministers (October 2026).**
 
 ---
 
 ## Run summary
 
-- Findings count by pillar: P1 Banking: MiCA deadline-day (anchor firing + AMF criminal-prosecution posture) + BSP June 30 passed (anchor, no compliance data yet) | P2 Identity orchestration: **2 new** (Bouygues×Aduna network-identity/CAMARA; Hopae India stack) | P3 EUDI: **1 new** (Romania → Germany open-source RoEUDIW) | P4 KYC/AML: 0 | P5 Onboarding: cross-listed P2/P6 | P6 IDV: **1 new** (Fime mDL certification scheme) | P7 Fraud/Deepfakes: 0 new | P8 Mobile trust: cross-listed P2 (network anti-SIM-swap) | P9 Passwordless: **1 new** (Singpass passkey) + BSP cross-ref | P10 ZKP: cross-listed P6 | P11 Age assurance: 0 (South Korea facial-rec noted as watch item) — **Total: 5 new in-window findings across 4 pillars + MiCA/BSP anchors firing**
-- Override-worthy: **2** — (1) MiCA transitional period ends today with AMF criminal-prosecution teeth; (2) network-layer identity goes commercial in France (Bouygues × Aduna / CAMARA) as a fresh orchestration angle.
+- Findings count by pillar: P1 Banking: 1 (MiCA enforcement now live — July 1 anchor closure + AMLA coordination angle) | P2 EUDI: 0 | P3 Fraud: 0 | P4 ZKP: 0 | P5 Passwordless: 0 | P6 LATAM: 0 | P7 Identity ecosystem: 2 (Jumio × Trinsic global credential acceptance — missed; UK DVS Trust Framework v1.0 OSP rules — missed) → **Total: 3 findings across 2 pillars**
+- Override-worthy: **1** — UK DVS Trust Framework v1.0: first statutory certification category for orchestration service providers, September 1 enforcement, UK CertifID trust mark — the regulatory moment that names and legitimises the orchestration layer Ditto occupies. Account: / company.
 - Delta path: research/2026-07-01-cycle-delta.md
-- Note: healthier cycle than June 30's — the June 30 ID-Tech cluster (Romania EUDI, Bouygues/Aduna, Singpass passkey, Fime mDL) delivered four genuinely fresh, on-pillar, in-window findings alongside the MiCA/BSP anchors landing today. Vouched IAL2 (Kantara, June 23) and Facephi Mexico +77% (2024 CONDUSEF data) checked and excluded as out-of-window.
+
+---
+
+_Note: Worker API (ditto-slack-bot.dittobot.workers.dev) is blocked by the environment's network egress allowlist; skill/pillar files were not loaded from the worker. Delta written directly to GitHub. To restore full skill-file context, add `ditto-slack-bot.dittobot.workers.dev` to the environment's network egress allowlist._
