@@ -1,96 +1,69 @@
 # Cycle Delta — 2026-07-06
 
-Window: 2026-07-03 → 2026-07-06 (last 72 hours — Monday run, weekend-extended). The fresh in-window cluster is the **July 3 ID Tech digest** (the July 3 delta was built off the July 2 digest, so July 3's items are new) plus the **UK Home Office digital-ID-for-alcohol** regulatory move (GOV.UK blog June 30 / Home Office announcement + press cluster July 2–3). No July 4–6 primary-source digest published at run time (weekend).
+Window: 2026-07-03 → 2026-07-06 (last 72 hours — Sunday run, weekend window Fri→Sun)
 
 ## Override-worthy this cycle
 
-1. **UK to allow certified digital-ID apps for alcohol age checks in England & Wales — the first mandated point-of-sale market for DVS-certified digital identity, and it is explicitly built on data minimisation (Home Office statutory instrument, autumn 2026; GOV.UK June 30 / press July 2–3).** Account: company /. Angle: the UK's DVS Trust Framework is moving from "a certification category exists" (Sept 1 enforcement anchor) to "here is a legally mandated, high-volume consumer use case that only certified apps can serve." A shopper proves *over-18* without exposing name, address, or full DOB — the archetypal selective-disclosure / privacy-attribute check. Clean POV hook: age assurance is the wedge where privacy-preserving attribute proofs go mainstream, and the regulatory perimeter (DVS certification) decides who is allowed to play. Critique the pattern (prove-a-fact-not-your-identity), never name a vendor.
-
-2. **"Verify once, reuse everywhere" consolidated into a single-day pattern — Sumsub→idOS Consortium (Web3 reusable KYC), Signicat×TrustTech (reusable identity in private wallets, act-now-don't-wait-for-public-wallets), and Authologic→Google Wallet (verifiable credentials) all landed July 3.** Account: / company. Angle: reusable/portable identity stopped being a roadmap slide and became a market movement in one news cycle — and every one of these moves pushes the value *above* the individual biometric check, into the layer that governs which credentials are accepted, under which trust framework, with which relying-party obligations. That is the orchestration layer. Reinforces the Jumio×Trinsic (June 25), Experian Identity Connect (July 1) and authID×Microsoft Entra Verified ID (July 2) trajectory. Cite the trend, not the vendors.
+1. **Switzerland delays Swiyu national e-ID to H1 2027, explicitly citing AI deepfakes and malware as the security threats it cannot yet defeat** — Switzerland's Federal Office of Justice confirmed that the planned July 2026 internal testing phase for the Swiyu e-ID has been postponed, with full public launch not expected until the first half of 2027. The stated reasons are specific: additional technical measures are needed to resist deepfake-based issuance fraud and malware infiltration during online identity enrollment. Account:. Angle: the first major non-EU nation to publicly state that deepfakes have delayed its national digital identity infrastructure — the inverse of Australia's mandate moment; here, deepfakes are the blocker, not the demand driver.
 
 ## New findings
 
 ### Pillar 1: Banking & Payments
-(no new discrete in-window item. PSD3/PSR: final texts agreed April 23; OJEU publication still expected June/July but may slip to September — no confirmed date inside July 3–6; rules apply 21 months post-publication, and PSD3 explicitly hard-wires DORA alignment + treats delegated-SCA to third parties as regulated outsourcing. MiCA CASP enforcement remains the live anchor (transitional period closed July 1; ESMA/EBA/AMLA tripartite coordination active). No new EBA/ECB SREP/DORA publication confirmed in window.)
+(no new material in window — AMLA July 10 deadline now 4 days away; no early submission confirmed; no new EBA, ECB, FCA/PSR, or PSD3/PSR OJEU announcement confirmed July 3–6.)
 
-### Pillar 2: Identity orchestration
-- **Reusable-identity convergence — three same-day moves (July 3, 2026): Sumsub→idOS Consortium, Signicat×TrustTech, Authologic→Google Wallet** — In a single news cycle, three identity players advanced "verify once, reuse everywhere": (1) **Sumsub** joined the **idOS Consortium** Governance Committee, contributing its biometric-liveness + KYC/AML orchestration engines to an open-source decentralised-identity network so users verify once and reuse credentials across blockchains (existing on-chain attestations on Solana, Linea, Chainlink); (2) **Signicat × TrustTech** partnered to let regulated businesses issue a single high-assurance biometric check into a cryptographic identity token stored in a *private* wallet — eIDAS 2.0-aligned, explicitly framed as "act now, don't wait for government-issued public wallets," targeting financial services / government / healthcare / pharma; (3) **Authologic** added verifiable-credential support in **Google Wallet** to cut business-onboarding friction. For Ditto: reusable identity is consolidating fast, and every one of these moves migrates value away from the standalone capture/match step toward whoever governs *credential acceptance, trust-framework conformity, and relying-party liability* — the orchestration layer Ditto occupies. Direct continuation of the Jumio×Trinsic (June 25) / authID×Microsoft Entra (July 2) pattern. Ecosystem/competitive datapoint — critique the pattern, never name a vendor. Cross-listed P3, P5, P6.
-  - Source: https://idtechwire.com/sumsub-joins-idos-consortium-to-advance-reusable-identity-for-web3/
-  - Source: https://www.finextra.com/pressarticle/110342/signicat-and-trusttech-partner-to-bring-reusable-identity-to-european-digital-wallets
+### Pillar 2: EUDI / eIDAS2
+- **Switzerland delays Swiyu national e-ID to H1 2027, citing deepfakes and malware infiltration as disqualifying security risks** — The Federal Office of Justice (FOJ) announced that the internal testing phase planned for July 2026 has been postponed; the full public launch of Switzerland's state-issued, open-source Swiyu e-ID wallet will not occur until H1 2027. The FOJ statement is unusually specific: the system needs additional technical measures to (i) resist malware infiltration on end-user devices during online issuance, (ii) detect deepfakes during enrollment, and (iii) incorporate opposition-party proposals on data protection and security standards — all of which remain unfinished. This is Switzerland's third announced delay: original timeline was early 2026 (pre-voter referendum completion), then December 2026 (after the March 2026 slip), now H1 2027. The explicit deepfake rationale is significant: Switzerland is the first sovereign government to publicly cite AI-generated deepfakes as a security concern serious enough to block a national digital identity rollout. Context: Switzerland is not EU but closely mirrors eIDAS 2 architecture; Swiyu is already built on open-source OID4VCI/VP standards and its delay signals to EU member states still finalising online-issuance security models that the liveness + cryptographic issuance problem is real and unsolved.
+  - Source: https://www.biometricupdate.com/202607/switzerland-delays-digital-id-rollout-to-strengthen-trust-infrastructure
+  - Source: https://www.thelocal.ch/20260701/why-the-introduction-of-switzerlands-e-id-being-is-being-delayed
+  - Source: https://www.swissinfo.ch/eng/swiss-ai/introduction-of-e-id-delayed-for-security-reasons/91675866
+  - Date: 2026-07-01 (FOJ announcement; missed by July 3 delta)
+
+### Pillar 3: Fraud / Deepfakes
+(no new primary-source report or named bank deepfake incident in window — Persona H1 2026 selfie fraud report covered in July 2 delta; no new iProov, Veriff, or Sumsub publication confirmed July 3–6.)
+
+### Pillar 4: ZKPs in practice
+(no new bank ZKP pilot, OpenID4VP/VCI update, or mDL deployment confirmed in window.)
+
+### Pillar 5: Passwordless / split-key
+(no new material in window — no new FIDO Alliance specification, passkey deployment announcement, or regulator OTP-sunset publication confirmed July 3–6.)
+
+### Pillar 6: LATAM
+(no new material in window — Brazil DeCripto effective July 1 covered in July 2 delta; no new BCB, CNBV, Superfinanciera, CMF, or SBS publication confirmed July 3–6.)
+
+### Pillar 7: Identity ecosystem
+- **Google Wallet credential acceptance wave: OneID (UK), Authologic (global), and Signicat × TrustTech announce integrations in the same week — Google Wallet emerging as a de facto B2B credential layer ahead of EUDI** — Three separate identity verification vendors announced Google Wallet credential acceptance in the same week (published ID Tech Digest July 3, 2026; Biometric Update July 2026). (1) **OneID** (UK-based, backed by major banks) announced it will support identity verification using credentials presented via Google Wallet, enabling organisations to facilitate KYC onboarding, age assurance, account access and fraud prevention using government-issued digital credentials; live in the UK market and complements OneID's bank-based verification network under the DVS Trust Framework. (2) Polish IDV vendor **Authologic** announced a partnership with Google enabling businesses to accept Google ID Pass — digital passports and government-issued credentials — through Google Wallet for corporate onboarding workflows via its OmniID platform; supports U.S. and UK-issued credentials. (3) Nordic eID vendor **Signicat** announced a partnership with TrustTech to help regulated businesses build eIDAS 2.0-compliant reusable identity processes through private wallet ecosystems. Taken together: Google Wallet is moving into position as the pre-EUDI credential acceptance layer for commercial KYC, with commercial IDV vendors using Google's distribution to solve the relying-party integration problem before EUDI wallets hit critical mass. For Ditto: the orchestration layer question — who connects which credentials to which relying parties — is being answered by commercial partnerships rather than EUDI ARF alone; the identity ecosystem is not waiting for the December 24, 2026 wallet deadline.
   - Source: https://idtechwire.com/id-tech-digest-july-3-2026/
-  - Date: 2026-07-03
-- **(Context — agentic identity, primary date July 1, surfaced in July 3 digest) Veratad launches "VX Agent Toolkit" — identity + age verification exposed to autonomous AI agents as an MCP-callable tool returning a cryptographically signed proof-of-human** — Built on the open **Model Context Protocol**, the toolkit lets chatbots and headless/autonomous agents programmatically verify a real human's identity/age before executing high-privilege commands or unlocking restricted content. On-pillar as a leading indicator that "verify the human behind the agent" is becoming a discrete IDV product category, converging with the **FIDO Alliance Agentic Authentication Technical Working Group** (Google AP2 / Mastercard Verifiable Intent contributions). Flagged honestly: primary announcement is July 1 (just outside the strict July 3–6 window) but surfaced in the July 3 digest and not in any prior delta. Watch-item for the agentic-identity thesis, not a headline. Cross-listed P6.
-  - Source: https://idtechwire.com/veratad-launches-identity-and-age-verification-toolkit-for-ai-agents/
-  - Source: https://www.prnewswire.com/news-releases/veratad-technologies-launches-the-veratad-vx-agent-toolkit-giving-ai-agents-built-in-identity-and-age-verification-302815344.html
-  - Date: 2026-07-01 (announced); surfaced in 2026-07-03 digest
-
-### Pillar 3: EUDI / eIDAS2
-- **Private-wallet reusable identity positioned as the "act now" bridge to EUDI (Signicat×TrustTech, July 3 — cross-listed from P2)** — The Signicat×TrustTech partnership is notable for EUDI framing: it explicitly pitches *private* wallets as the way regulated organisations can build eIDAS 2.0-aligned reusable-identity flows *before* government-issued public wallets reach every citizen. This is the pragmatic reading of the EUDI runway — relying parties don't wait for the state wallet; they stand up compliant private-wallet acceptance now, with the state wallet as one credential source among many. Reinforces that the orchestration/acceptance layer is where readiness actually gets built. Hard anchor unchanged: every member state must offer ≥1 certified EUDI Wallet by **December 6, 2026**; regulated sectors must accept it by end-2027; Germany DIdG → January 2, 2027. No new ARF update, Commission implementing act, or ENISA certification announcement confirmed inside July 3–6.
-  - Source: https://financialit.net/news/digital-identity/signicat-and-trusttech-bring-reusable-identity-european-businesses-through
-  - Date: 2026-07-03
-
-### Pillar 4: KYC / AML compliance
-(no new discrete in-window item. The single biggest near-term event is the **AMLA CDD / business-relationship / sanctions RTS final drafts due to the Commission July 10** (4 days) — four Level-2 mandates legally due; AMLR/AMLD6 apply from July 10, 2027. FATF seventh targeted update on VA/VASP standards (approved June 17–19 plenary) still pending July 2026 publication. Note: the Sumsub→idOS move (P2) is a reusable-*KYC* story — repeated CDD is the cost it attacks — but no new AMLA consultation, FATF publication, or named sanctions action confirmed inside July 3–6.)
-
-### Pillar 5: Customer onboarding
-(no new discrete onboarding-KPI benchmark or sector study published inside July 3–6. The onboarding-relevant signal this cycle is the reusable-identity cluster (P2): Sumsub/idOS, Signicat/TrustTech and Authologic all pitch reusable credentials as onboarding-friction and customer-acquisition-cost reduction — "verify once, skip repeat KYC." The onboarding read is that reusability is becoming the primary lever on onboarding economics, and it only works if the acceptance/trust layer is orchestrated correctly.)
-
-### Pillar 6: Identity verification (IDV)
-- **Reusable identity + agentic identity both advanced in-window (cross-listed from P2)** — IDV read: (a) the Sumsub/idOS, Signicat/TrustTech, Authologic/Google Wallet cluster shows standalone capture-and-match commoditising into a reusable credential that gets *accepted* rather than re-run — differentiation moves to assurance + orchestration above the check; (b) Veratad's MCP-based agent toolkit signals "verify the human behind the AI agent" emerging as its own IDV surface. Both point the same way: the individual biometric/document check is table stakes; the assurance and composition layer is the contested ground. See P2 for detail and sources.
-  - Source: https://idtechwire.com/id-tech-digest-july-3-2026/
-  - Date: 2026-07-03
-
-### Pillar 7: Fraud / Deepfakes
-(no new named-bank incident or new primary-source fraud report dated July 3–6 confirmed. Landscape unchanged from prior deltas: Unico injection-attack dominance (July 2 delta — injection attacks now the primary remote-IDV vector, device camera bypassed); Persona H1 2026 selfie-fraud report (July 2 delta — simple presentation attacks still dominate by volume, $12 full-kit packages, attackers 194% more likely to inject real-person video than synthetic faces); Shufti Identity Fraud Index (~495% projected deepfake-fraud growth, June 26 delta). Anchor: EU AI Act Art. 50 deepfake-labelling enforcement August 2; Code of Practice signatory deadline July 22.)
-
-### Pillar 8: Mobile trust & app security
-- **(Minor) Wultra raises €6.8M to build post-quantum cryptographic identity/authentication for mobile banking channels (July 3, 2026)** — Digital-security vendor **Wultra** closed a €6.8M round to accelerate post-quantum-cryptography (PQC) identity and authentication products aimed at banking mobile channels. On-pillar as a market signal that *quantum-readiness* is moving from a spec-sheet line to a funded procurement expectation in mobile banking security — the same "quantum-ready" posture Ditto lists as a differentiator. Not a threat-intel event; no new named Android-malware family (Anatsa/NGate/NFC-relay families remain active per prior deltas but no in-window disclosure) or SS7/SIM-swap breach dated July 3–6 confirmed. Watch-item / reinforcing datapoint. Cross-listed P9.
-  - Source: https://idtechwire.com/id-tech-digest-july-3-2026/
-  - Date: 2026-07-03
-
-### Pillar 9: Passwordless / split-key
-- **Wultra €6.8M post-quantum auth raise (cross-listed from P8, July 3, 2026)** — Passwordless read: PQC-based authentication for banking gets fresh capital, reinforcing the direction of travel (phishing-resistant + quantum-resistant auth as the emerging default, OTP sunsets) that BSP Circular 1213 (OTP liability-shift, June 30 delta) and the FIDO Alliance roadmap exemplify. Context: FIDO's **Agentic Authentication Technical Working Group** (Google AP2 / Mastercard Verifiable Intent) is the other live passwordless-adjacent thread — auth extending to AI agents. No new FIDO spec, passkey-adoption stat (World Passkey Day 5B-passkey data is May 6), or regulator OTP-sunset publication confirmed inside July 3–6. Ecosystem datapoint (do not name in posts).
-  - Source: https://idtechwire.com/id-tech-digest-july-3-2026/
-  - Date: 2026-07-03
-
-### Pillar 10: ZKPs in practice
-(no new bank ZKP pilot or OpenID4VP/VCI deployment confirmed in window. The in-window ZKP-adjacent signal is the **UK alcohol digital-ID** move (P11 / override #1): a legally mandated *prove-a-single-attribute* (over-18) use case built on data minimisation is exactly the selective-disclosure value proposition ZKP/attribute-proof architectures deliver — proving a fact without exposing the underlying identity document. It is the clearest mainstream, dated example this cycle of "prove the claim, not the identity." Ditto's privacy-first / selective-disclosure posture maps directly. Cross-listed from P11.)
-
-### Pillar 11: Age assurance & privacy attributes
-- **UK to permit certified digital-ID apps for alcohol age checks in England & Wales — statutory instrument amending the Licensing Act 2003 mandatory conditions; only DVS-certified/registered apps qualify; effective autumn 2026; data-minimisation at its core (GOV.UK June 30 / Home Office announcement + press cluster July 2–3)** — The Home Office announced changes permitting alcohol retailers and clubs to accept digital proof of age at point of sale, via a statutory instrument updating the Licensing Act 2003 (Mandatory Licensing Conditions) Order 2010. Crucially, *only* digital identity apps certified against and registered under the **UK DVS Trust Framework** will qualify (early examples cited: Yoti, Post Office EasyID); the scheme is non-mandatory and does not replace passports/photocard licences. The policy is explicitly engineered for point-of-sale speed *and* stronger consumer data-minimisation — proving age without revealing unnecessary personal data. For Ditto: this is the DVS Trust Framework's certification regime (Sept 1 statutory enforcement anchor) acquiring its first mandated, high-volume consumer market, and it is a privacy-attribute / selective-disclosure use case by design — the archetype for "prove a fact, not your identity." Strong POV material for age-assurance-as-the-privacy-wedge. Critique the pattern; do not name a vendor. See override #1. Cross-listed P10.
-  - Source: https://enablingdigitalidentity.blog.gov.uk/2026/06/30/enabling-the-use-of-digital-verification-services-for-alcohol-age-checks-in-england-and-wales/
-  - Source: https://www.thespiritsbusiness.com/2026/07/uk-government-proposes-digital-id-for-alcohol-sales/
-  - Source: https://securitybrief.co.uk/story/uk-to-allow-digital-id-apps-for-alcohol-age-checks
-  - Date: 2026-06-30 (GOV.UK) / 2026-07-02 (Home Office announcement + press)
-- **(Cross-listed context) Veratad VX Agent Toolkit includes age-classification for AI agents (P2/P6)** — Age verification is one of the two checks the agentic toolkit exposes — a minor signal that age-gating is extending into machine-to-machine / agent-mediated commerce. Watch-item. Hard anchor unchanged: **Ofcom statutory age-assurance effectiveness report due end-July 2026** (~July 17–31); OSA enforcement escalating (highest strand fine to date £1.35M on 8579 LLC; prior £1M AVS Group "highly effective age assurance" penalty). No new Ofcom enforcement action confirmed inside July 3–6.
-  - Source: https://idtechwire.com/veratad-launches-identity-and-age-verification-toolkit-for-ai-agents/
-  - Date: 2026-07-01 (surfaced 2026-07-03 digest)
+  - Source: https://www.biometricupdate.com/202607/wallet-interoperability-takes-shape-as-googles-influence-grows
+  - Source: https://oneid.uk/news-and-events/oneid-expands-its-digital-verification-access-network-with-google-wallet-credentials
+  - Source: https://www.pymnts.com/authentication/digital-identity/2026/google-launches-digital-id-partnership-with-polands-authologic/
+  - Date: 2026-07-03 (ID Tech Digest July 3, 2026)
 
 ---
 
 ## Next-cycle anchors (updated)
 
-- **AMLA CDD / business-relationship / sanctions RTS final drafts → Commission (July 10)** — 4 days. Four Level-2 mandates legally due; single biggest identity/KYC regulatory event in the near term.
-- **FSB AI Sound Practices virtual outreach event (July 7)** — tomorrow; consultation responses due July 22; final report to G20 October 2026.
-- **FATF seventh targeted update on VA/VASP Standards (July 2026)** — DeFi, stablecoins, unhosted wallets; approved June 17–19 plenary; not yet published.
-- **Ofcom statutory age-assurance effectiveness report (end-July, ≈July 17–31)** — establishes the public compliance baseline for age-assurance vendors and platforms; Ofcom already levying substantive fines (£1.35M 8579 LLC; £1M AVS Group).
-- **EU AI Act Code of Practice signatory deadline (July 22)** — 16 days; signatories gain presumption of conformity with Art. 50.
-- **EU AI Act Article 50 enforcement (August 2)** — 27 days; deepfake labelling, AI-content marking, chatbot disclosure become binding.
-- **UK DVS Trust Framework 1.0 enforcement (September 1)** — 57 days; first conformity-assessment-body accreditation; OSP certification active; UK CertifID trust mark. Now materially linked to the alcohol-age-check SI (only DVS-certified apps qualify) — DVS certification is acquiring concrete market demand.
-- **UK digital-ID-for-alcohol statutory instrument** — subject to parliamentary scrutiny; intended in force autumn 2026. Watch for the SI laid/approved date and the first certified apps admitted to the alcohol-acceptance scheme.
-- **PSD3/PSR OJEU publication** — expected June/July, may slip to September; rules apply 21 months post-publication; DORA alignment + delegated-SCA-as-outsourcing baked in.
-- **MiCA post-deadline enforcement** — watch for first named ESMA/NCA action against a continuing unlicensed cross-border CASP; Binance France AMF application timeline.
-- **EUDI wallet member-state deadline** — ≥1 certified wallet per member state by December 6, 2026; regulated-sector acceptance by end-2027; Germany January 2, 2027.
-- **Reusable identity / agentic identity** — new watch cluster: track whether reusable-credential acceptance (Sumsub/idOS, Signicat/TrustTech, Authologic/Google Wallet) and FIDO's Agentic Authentication WG converge into a named orchestration/trust-governance standard; watch for the next incumbent to add reusable-credential acceptance.
-- **Injection-attack detection certification** — only ~3 of top-20 biometric vendors reportedly certified to detect injection attacks; watch for iBeta/lab schemes or NIST/FIDO injection-resistance guidance.
-- **PSR APP-fraud reimbursement independent review (Frontier Economics)** — Q2/Q3 2026; not yet published.
-- **Japan JSDA phishing-resistant MFA mandatory deadline** — "summer 2026".
+- **AMLA 23 RTS/ITS/guidelines → Commission (July 10)** — 4 DAYS. Single biggest EU KYC/identity regulatory event of July 2026: CDD, business-relationship, and ongoing-monitoring standards that define what "compliant" identity verification looks like under the AMLR from July 2027. Watch amla.europa.eu for post-submission publication.
+- **FSB AI Sound Practices virtual outreach event (July 7 — TOMORROW, 13:00–15:00 CEST)** — 12 sound practices across the full AI lifecycle for financial institutions; publicly accessible, register at fsb.org. Consultation deadline July 22.
+- **Ofcom statutory age-assurance effectiveness report (by July 17)** — 11 days. Statutory first-year report on Online Safety Act child-safety duties; will set public compliance baseline for age-assurance vendors.
+- **EU AI Act Code of Practice signatory deadline (July 22, 18:00 CEST)** — 16 days. Sign for legal presumption of conformity with Article 50 deepfake/AI-content disclosure obligations; final Code published June 10.
+- **FSB AI Sound Practices consultation deadline (July 22)** — 16 days.
+- **EU AI Act Article 50 enforcement (August 2)** — 27 days. Deepfake labelling, chatbot disclosure, AI-content marking become binding; fines up to €15M or 3% global turnover.
+- **AUSTRAC Tranche 2 enrolment deadline (July 29)** — 23 days. ~100,000 newly in-scope entities must enrol with AUSTRAC.
+- **FATF seventh targeted update on VA/VASP Standards** — Approved at June 17–19 plenary; not yet published; addresses DeFi, stablecoins, unhosted wallets. Watch fatf-gafi.org.
+- **UK People's Panel on Digital ID — report publication** — TBD; deliberation concluded June 21.
+- **UK DVS Trust Framework 1.0 enforcement (September 1)** — 57 days. OSP certification active; UK CertifID trust mark.
+- **EUDI Wallet hard deadline (December 24, 2026)** — All EU member states must make wallet available; Ireland in pilot stage; Germany DIdG confirmed January 2, 2027 launch.
+- **Japan JSDA phishing-resistant MFA mandatory deadline** — "summer 2026"; watch for JSDA finalization.
+- **PSD3/PSR OJEU publication** — H2 2026; no confirmed date.
 
 ---
 
 ## Run summary
 
-- Findings count by pillar: P1 Banking: 0 new (PSD3 OJEU pending; AMLA RTS July 10) | P2 Identity orchestration: **1 new** (reusable-identity convergence — Sumsub/idOS + Signicat/TrustTech + Authologic/Google Wallet) + 1 context (Veratad agentic toolkit) | P3 EUDI: **1** (Signicat/TrustTech private-wallet "act now" bridge — cross-list) | P4 KYC/AML: 0 (AMLA July 10 anchor) | P5 Onboarding: cross-listed P2 | P6 IDV: cross-listed P2 (reusable + agentic) | P7 Fraud/Deepfakes: 0 new | P8 Mobile trust: **1 minor** (Wultra €6.8M PQC auth raise) | P9 Passwordless: cross-listed P8 | P10 ZKP: cross-listed P11 (UK alcohol data-minimisation) | P11 Age assurance: **1 new** (UK digital-ID-for-alcohol, DVS-certified apps only) — **Total: 3 substantive new in-window findings (P2, P3, P11) + 2 minor/context (Wultra PQC, Veratad agentic)**
-- Override-worthy: **2** — (1) UK certified digital-ID apps for alcohol age checks: first mandated point-of-sale market for DVS-certified digital identity, data-minimisation by design; (2) reusable-identity convergence in a single news cycle — value migrates to the orchestration/trust-governance layer.
+- Findings count by pillar: P2 EUDI/eIDAS2: 1 (Switzerland Swiyu e-ID delayed to H1 2027 — deepfakes and malware cited as security disqualifiers; missed by July 3 delta) | P7 Identity ecosystem: 1 (Google Wallet credential acceptance wave — OneID, Authologic, Signicat × TrustTech — July 3, 2026) → **Total: 2 findings across 2 pillars**
+- Override-worthy: **1** — Switzerland Swiyu e-ID delay to H1 2027 citing deepfakes: first national government to publicly state that deepfakes have blocked its digital identity rollout. Account:.
 - Delta path: research/2026-07-06-cycle-delta.md
-- Note: fresh cluster is the July 3 ID Tech digest (reusable-identity trio; Veratad agentic toolkit; Wultra PQC) + the UK alcohol digital-ID SI (GOV.UK June 30 / press July 2–3). No July 4–6 digest at run time (weekend). Government surveillance / facial-recognition items in the July 3 digest (Ottawa Police, Facewatch/Sainsbury's) excluded as outside Ditto's regulated-enterprise ICP. PSD3, FIDO passkey stats, FATF, and LATAM checked and excluded as out-of-window or already covered.
+
+---
+
+_Note: Worker API (ditto-slack-bot.dittobot.workers.dev) is blocked by the environment's network egress allowlist (403 policy denial on CONNECT); skill/pillar files were not loaded from the worker. Delta written directly to GitHub via MCP. To restore full skill-file context, add `ditto-slack-bot.dittobot.workers.dev` to the environment's network egress allowlist._
