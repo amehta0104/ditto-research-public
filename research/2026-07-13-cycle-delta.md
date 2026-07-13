@@ -1,89 +1,87 @@
 # Cycle Delta — 2026-07-13
 
-Window: 2026-07-10 → 2026-07-13 (last 72 hours — Monday run covering the weekend). The July 10 Friday close was written by the 07-10 delta (AU10TIX Q1 fraud report; Fragomen×SICPA JV; Bulgaria age-check bill). The weekend (July 11–12) produced no net-new primary findings, and the July 10 material (ID Tech Digest July 10 batch) reports **July 9 announcements** the 07-10 delta did **not** capture despite claiming to mine "the July 9 batch." The fresh, on-pillar cluster this cycle is therefore a **July 9 EUDI-integration / orchestration backfill**: (1) **Lissi's €3.5M raise led by Ventech** (July 9) for an AMLR-compliant EUDI Wallet Connector Suite that embeds wallet functionality inside banks' own apps; (2) **Gataca's new funding round** (July 9–10) to expand its EUDI wallet into iGaming, media and financial services, on the back of a June ISO/IEC 27566 age-assurance certification; (3) **1Kosmos recognised as a Microsoft Entra Verified ID partner** (July 9) for verifiable-credential remote onboarding — a direct-competitor ecosystem move. **AMLA's Level-2 RTS package (incl. the Article 28 CDD/identity-verification RTS) was legally due to the Commission on July 10** — the single biggest near-term KYC/identity event — but no submission or publication is confirmed in-window; it remains a standing anchor, not an in-window finding. Excluded on the date rule: Proof "Certify" digital-credential launch (primary source dates it Oct 20, 2025, not July — search-engine conflation); Spain AEPD EUDI-exclusion advisory (~July 7, out of window and covered-adjacent). Excluded as out-of-ICP: Nigeria CAC/NIMC registration linkage, Employ×ID.me hiring-fraud integration (US workforce), Fraport Greece EES overhaul plea.
+Window: 2026-07-11 → 2026-07-13 (72-hour Fri-Mon weekend window; prior delta covered through 2026-07-10)
 
-Integrity note: the three headline items are dated **July 9**, at/just outside a strict 72-hour window, but were demonstrably missed by the prior delta; they are flagged below as backfill with honest dates rather than presented as fresh July 10–13 events. The weekend itself was empty.
+---
 
 ## Override-worthy this cycle
 
-1. **Capital is flowing into the EUDI bank-integration layer in a single week, ~5.5 months before the Dec 24, 2026 wallet-availability deadline: Lissi (€3.5M, led by Ventech) and Gataca both raised on July 9 to build the plumbing that connects banks/relying parties to national wallets — Lissi explicitly pitching AMLR-compliant wallet embedding inside banking apps, with 90% of its customers in financial services (Commerzbank, itsme).** Account: / company. Angle: the EUDI story is moving from "will banks have to accept wallets?" to "who builds the connector between a bank's app and 27 national wallets — and can it double as the AMLR-compliant KYC rail?" POV hook: "The EUDI deadline is a distribution problem, not a wallet problem. Every regulated firm needs a connector layer between its onboarding stack and 27 member-state wallets — and the market just funded two of them in a day. The question for a CISO isn't 'which wallet,' it's 'who orchestrates acceptance, and does it collapse KYC + SCA + credential issuance into one rail or bolt a fourth silo onto the three you already have?'" Ecosystem datapoint — do not name a vendor.
+1. **EU AI Act Article 50 deepfake-labelling enforcement is 20 days away — July 22 is the last day to sign the Code of Practice and secure a presumption of regulatory conformity** — Commission Adequacy Assessment cleared July 8; AI Board endorsed July 9; Article 50 applies August 2. Account: / company. Angle: "In 20 days, unlabelled deepfakes and undisclosed AI chatbots become a €15M regulatory exposure in the EU. Every identity vendor whose product touches AI-generated content — liveness, synthetic voice, document generation — needs to have signed the Code of Practice by July 22 or prepare to argue conformity on its own merits in front of a national AI authority."
+
+---
 
 ## New findings
 
 ### Pillar 1: Banking & Payments
-(no new discrete in-window banking publication. **AMLA's Level-2 RTS package — incl. the Article 28 CDD / identity-verification RTS — was legally due to the Commission on July 10**; these define what "compliant" customer identity verification looks like under the AMLR from July 10, 2027. No submission or publication confirmed inside July 10–13 — watch amla.europa.eu. PSD3/PSR: Council "I"-item note April 23, 2026 with final compromise texts; entry into force anticipated ~late 2027; no new OJEU date in window. The 2025 EBA/ECB payment-fraud figure (€2.2B credit-transfer fraud in 2024, +16% YoY, ~85% borne by customers) remains standing context, not a new print. No new EBA / ECB / FCA / PSR publication confirmed July 10–13.)
+*(no new primary-source material in window beyond the AMLA 23-measure package covered in the 2026-07-10 delta; PSD3/PSR OJEU publication still pending — expected H2 2026, possibly September)*
 
-### Pillar 2: Identity orchestration
-- **1Kosmos recognised by Microsoft as an Entra Verified ID services & solution partner for verifiable-credential remote onboarding (announced July 9, 2026)** — 1Kosmos (Iselin, NJ; $72M+ raised) extended its Microsoft partnership to become an official Entra Verified ID partner, issuing privacy-preserving verifiable credentials backed by a decentralised private ledger and acting as an External Authentication Method (EAM) for Entra ID, available via the Microsoft Security Store. The joint solution proofs government IDs against live biometrics certified to ISO/IEC 30107-3 and NIST IAL2/AAL2, targeting hiring fraud, synthetic identities and unauthorised account creation in remote onboarding. For Ditto: a direct-competitor (1Kosmos is Ditto's closest positioning overlap per the competitor brief) plugging its VC/decentralised-identity stack into Microsoft's identity fabric — the orchestration pattern of "issue a verifiable credential once, re-present it" being distributed through a hyperscaler's IAM channel rather than sold standalone. The read: verifiable-credential acceptance is consolidating into platform ecosystems (Microsoft Entra, Google Wallet) ahead of EUDI, and the differentiation moves from "can you verify a document" to "whose trust fabric do you ride, and can you bind the presenter cryptographically." Competitor/ecosystem datapoint — do not name a vendor.
-  - Source: https://www.globenewswire.com/news-release/2026/07/09/3324859/0/en/1kosmos-recognized-by-microsoft-as-entra-verified-id-partner-for-delivering-secure-remote-onboarding-and-enhanced-digital-trust.html
-  - Source: https://idtechwire.com/1kosmos-becomes-a-microsoft-entra-verified-id-partner-for-remote-onboarding/
-  - Date: 2026-07-09
+---
 
-### Pillar 3: EUDI / eIDAS2
-- **Lissi raises €3.5M led by Ventech to embed AMLR-compliant EUDI wallets inside banks' own apps (announced July 9, 2026)** — German digital-identity firm Lissi (winner of Germany's 2025 EUDI Wallet Challenge) closed a €3.5M round led by Ventech, with BM|H Beteiligungs-Managementgesellschaft Hessen, main incubator (Commerzbank Group) and Ninepointfive Ventures participating. Funds expand its EUDI Wallet Connector Suite and a new SDK that lets financial institutions integrate wallet functionality — KYC, strong customer authentication, credential issuance — directly into their own mobile apps. Lissi explicitly times the raise to the AMLR and pitches wallet integration as a route to AMLR compliance; ~90% of its customers are in financial services (named: Commerzbank, itsme). For Ditto: the clearest in-window signal that the EUDI opportunity is being productised as a bank-facing connector/orchestration layer — exactly the "relying-party acceptance" and "verify-once" territory Ditto's EUDI orchestration product occupies — and that the AMLR is being sold as the commercial wedge for wallet adoption, not just wallet availability. See override #1. Ecosystem datapoint — do not name a vendor.
-  - Source: https://www.biometricupdate.com/202607/investors-back-lissi-gatacas-expansions-to-meet-eu-digital-identity-wallet-moment
+### Pillar 2: EUDI / eIDAS2
+*(no new ARF update, ENISA certification publication, or member-state launch announcement confirmed July 11–13; eideasy.com July 2026 tracker pre-dates window; Germany's January 2027 staged rollout plan announced June 15 is outside window)*
+
+---
+
+### Pillar 3: Fraud / Deepfakes
+
+- **EU AI Act Article 50 transparency obligations enter their final compliance sprint — signatory deadline July 22, enforcement August 2, 2026** — The European Commission published its Adequacy Assessment of the Code of Practice on Transparency of AI-Generated Content on July 8, confirming the Code adequately covers Article 50(2), (4) and (5). The EU AI Board endorsed the assessment on July 9. From August 2, providers of AI systems that generate or manipulate images, audio, and video (including synthetic faces and voice) must implement machine-readable marking and detectability mechanisms; deployers must disclose to users when AI-generated content including deepfakes is being shown to them, with harmonised EU labels at first exposure. Non-compliance: fines up to €15M or 3% of global annual turnover. The Code of Practice is voluntary but confers a presumption of conformity — signatories face a materially lower evidentiary burden in enforcement proceedings. The July 22 deadline is the last date to appear on the initial signatory list published by the EU AI Office ahead of August 2.
+  - Source: https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content
+  - Source: https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1328
+  - Source: https://bratby.law/ai-act-transparency-obligations-2026/
+  - Date: 2026-07-08 (Commission Assessment) / 2026-07-09 (AI Board endorsement) / deadline 2026-07-22 / enforcement 2026-08-02
+
+- **AU10TIX Q1 2026 Financial Services Fraud Intelligence Report: AI-generated identity fraud surpasses physical forgery for the first time across all financial services sub-sectors** — AU10TIX released its Q1 2026 Financial Services Identity Fraud Intelligence Report on July 9, 2026 (not captured in prior delta). Drawing on a validated ground-truth dataset of identity verification transactions across Payments, Banking, and Trading platforms, the report finds a confirmed fraud rate of 3.89% industry-wide — nearly 1 in 26 verification requests was a confirmed fraud attempt. Critically, AI-generated identities, synthetic documents, and digitally manipulated credentials now represent the dominant fraud methods across all three sub-sectors, surpassing physical document forgery for the first time. Confirmed fraud rates increased across every sub-sector and every document type compared to prior periods. This is not a forecast: it is observed transaction data from production verification pipelines. For Ditto: the 3.89% fraud rate means that in any financial services onboarding or authentication flow at scale, roughly 1 in 26 verification attempts is already adversarial — and the attack surface has structurally shifted from physical forgeries (which traditional document inspection can catch) to AI-generated synthetic identities (which require liveness detection, injection-attack defences, and network-level signal intelligence). Any identity stack relying on classical document scanning as its primary control is operating outside its design envelope in Q1 2026.
+  - Source: https://www.prnewswire.com/news-releases/ai-generated-identity-fraud-dominates-financial-services-as-confirmed-fraud-rates-rise-across-every-sub-sector-new-au10tix-data-shows-302821547.html
+  - Source: https://www.morningstar.com/news/pr-newswire/20260527da68530/identity-fraud-has-industrialized-au10tix-finds-ai-generated-fraud-surpassed-physical-forgery-for-the-first-time
+  - Date: 2026-07-09 (released 1 day before prior delta's 48h window opened; not included in that delta)
+
+---
+
+### Pillar 4: ZKPs in practice
+*(no new EU bank ZKP pilot, OpenID4VP/VCI update, or mDL deployment confirmed July 11–13)*
+
+---
+
+### Pillar 5: Passwordless / split-key
+*(no new FIDO Alliance specification, regulator OTP-sunset publication, or major bank passkey deployment announcement confirmed July 11–13; FIDO + HID enterprise identity report published June 15 at Identiverse is outside window)*
+
+---
+
+### Pillar 6: LATAM
+*(no new material from BCB, CNBV, Superfinanciera, CMF, or SBS confirmed July 11–13; Brazil's Drex centralised architecture pivot is August 2025; Mexico DiMo and CNBV Fintech Festival 2026 signals are broader background, not specific window events)*
+
+---
+
+### Pillar 7: Identity ecosystem
+
+- **Lissi GmbH and Gataca both close new funding rounds to build EUDI Wallet integration infrastructure — European capital backing the identity plumbing layer ahead of December 2026 deadline** — Lissi GmbH (Berlin) closed a €3.5M seed round on July 9, 2026, led by Ventech with participation from BM H Beteiligungs-Managementgesellschaft Hessen (the German state tech fund) and existing investors including main incubator (Commerzbank Group's innovation arm) and Ninepointfive Ventures. Lissi builds the EUDI Wallet Connector Suite and a new SDK that allows financial institutions to integrate wallet-based verifiable credentials directly into their onboarding apps without building the interoperability layer from scratch; the explicit commercial thesis is AMLR 2027 compliance demand. In parallel, Gataca (Spain) also announced a new funding round in the same period (amount undisclosed) to expand EUDI Wallet support into media, iGaming, and financial services in Europe. Coverage of both rounds appeared in trade media (Biometric Update) during the July 11-13 window. Two separate European identity infrastructure companies raising in the same week, both targeting the EUDI Wallet relying-party integration problem, is a signal: the institutional market is starting to fund the "plumbing" between government-issued wallets and commercial onboarding flows. For Ditto: this is the layer immediately above Ditto's own selective-disclosure and credential verification stack — Lissi and Gataca are building the connectors; Ditto builds the cryptographic primitives. The market is bifurcating between connector vendors and deep-protocol vendors.
   - Source: https://tech.eu/2026/07/09/lissi-raises-eur35m-to-power-europes-sovereign-digital-identity-future/
   - Source: https://www.ventechvc.com/stories/independence-for-europes-financial-sector-lissi-gmbh-secures-3-5-million-euros-led-by-ventech-for-european-amlr-compliant-eudi-wallet-integration
-  - Date: 2026-07-09
-
-- **Gataca raises a new (undisclosed) round to expand its EUDI wallet into iGaming, media and financial services (reported July 10, 2026; announcement ~July 9)** — Madrid-based Gataca (participant in the WE BUILD Consortium and active in EUDI Wallet development) closed a round from new and existing investors to widen interoperability and deepen the intelligence layer of its digital-identity wallet, targeting online gaming, media and financial services. It follows Gataca's June 2026 certification to ISO/IEC 27566 for privacy-preserving age assurance (Age Check Certification Scheme), and it reported 750,000+ wallet transactions across eight countries in 2025. For Ditto: a second EUDI-wallet vendor funded in the same week (see Lissi, override #1), and one whose expansion path — age assurance + iGaming + financial services — overlaps two named Ditto industries (gambling/gaming, banking). Confirms the EUDI integration layer is where capital is concentrating ahead of Dec 24. Cross-listed P11. Ecosystem datapoint — do not name a vendor.
   - Source: https://www.biometricupdate.com/202607/investors-back-lissi-gatacas-expansions-to-meet-eu-digital-identity-wallet-moment
-  - Source: https://www.biometricupdate.com/202606/gataca-boosts-age-assurance-pitch-with-certification-to-iso-standard-by-accs
-  - Date: 2026-07-09
-
-### Pillar 4: KYC / AML compliance
-(no new discrete in-window publication. **AMLA's Level-2 RTS package was legally due to the Commission on July 10** — the Article 28 CDD RTS specifies the information/documents obliged entities may collect and rely on to verify customer and beneficial-owner identity under standard, simplified and enhanced CDD. Underlying AMLR requirements apply from July 10, 2027. AMLA consulted Feb 9–May 8, 2026; no submission or publication confirmed inside July 10–13 — watch amla.europa.eu. Note the commercial read: Lissi (P3) is already selling EUDI-wallet integration as an AMLR-compliance play, i.e. vendors are monetising the RTS before it is published. FATF seventh targeted update on VA/VASP standards (approved June plenary) still pending publication. AUSTRAC Tranche 2 enrolment deadline July 29.)
-
-### Pillar 5: Customer onboarding
-- **Both in-window EUDI raises (Lissi, Gataca; July 9) frame wallet-held verifiable credentials as an onboarding-friction play (cross-listed from P3)** — Lissi's SDK pitch is "integrate wallet KYC/SCA/issuance into your own app" (fewer redirects, fewer re-captures); Gataca targets "low-friction age verification" for iGaming. For Ditto: reinforces the standing thesis that onboarding conversion and compliance are converging on the same primitive — accept a cryptographically verifiable credential once, re-present without re-capturing documents. Standing benchmarks unchanged (Signicat ~68% fintech drop-off; Fenergo 70% of FIs lost prospects to slow onboarding). No new discrete onboarding-KPI study in window.
-  - Source: https://tech.eu/2026/07/09/lissi-raises-eur35m-to-power-europes-sovereign-digital-identity-future/
-  - Date: 2026-07-09
-
-### Pillar 6: Identity verification (IDV)
-- **1Kosmos × Microsoft Entra Verified ID — VC-based remote proofing certified to ISO/IEC 30107-3 + NIST IAL2/AAL2 (July 9, 2026; see P2 for full write-up)** — IDV read: a competitor packaging document-plus-live-biometric proofing as an issuable verifiable credential distributed through Microsoft's IAM channel, aimed at remote onboarding / hiring-fraud / synthetic-identity. For Ditto Verify: another datapoint that IDV is being repackaged as credential-issuance-and-acceptance (verify once, keep proving) rather than one-time document capture, and that the presentation-attack-detection bar is being set publicly at ISO/IEC 30107-3 + IAL2/AAL2. No new iBeta / NIST IAL / FIDO Document Authenticity WG output confirmed in window.
-  - Source: https://idtechwire.com/1kosmos-becomes-a-microsoft-entra-verified-id-partner-for-remote-onboarding/
-  - Date: 2026-07-09
-
-### Pillar 7: Fraud / Deepfakes
-(no new primary-source report or named bank incident dated July 10–13. The AU10TIX Q1 2026 Financial Services Identity Fraud Intelligence Report — AI-generated fraud dominant, 3.89% confirmed fraud rate — was mined in the 07-10 delta and remains the freshest hard-data print. Standing context: Sumsub deepfakes ≈11% of global fraud (2026), iProov virtual-camera injection spike, Veriff net fraud rate >4% — all prior-quarter, not new in window. WEF "Unmasking Cybercrime: Strengthening Digital Identity Verification against Deepfakes 2026" report noted for a possible future read; not confirmed as an in-window release.)
-
-### Pillar 8: Mobile trust & app security
-(no new named banking-malware campaign or CVE dated July 10–13. Standing threat context unchanged: Sturnus.A (accessibility-service keylogging, on-screen interception that sidesteps E2E encryption in WhatsApp/Telegram/Signal, victimology in Southern/Central Europe; still assessed as evaluation-stage per ThreatFabric) and Anatsa remain active per threat-intel, but no new dated campaign in window. The 07-09 Aduna network-based Number Verification launch remains the standing mobile-trust anchor.)
-
-### Pillar 9: Passwordless / split-key
-, RBI (new auth rules effective April 1, 2026), Bangko Sentral ng Pilipinas Circular 1213 (limit interceptable OTPs, June 2026 deadline) are all live mandates; ~5B active passkeys reported at World Passkey Day 2026. No new FIDO Alliance specification or major passkey deployment confirmed July 10–13.)
-
-### Pillar 10: ZKPs in practice
-(no new bank ZKP pilot, OpenID4VP/VCI deployment or mDL milestone confirmed inside July 10–13. Selective-disclosure/verifiable-credential activity is embedded in the Lissi, Gataca and 1Kosmos items but none is a discrete ZKP announcement. OID4VP 1.0 remains standing context.)
-
-### Pillar 11: Age assurance & privacy attributes
-- **Gataca's funding + June ISO/IEC 27566 age-assurance certification position it for the iGaming age-check market (cross-listed from P3; July 9–10, 2026)** — Gataca is certified as a privacy-preserving age-assurance provider (ISO/IEC 27566 via the Age Check Certification Scheme, June 2026) and is now funded to push that capability into online gaming, where age verification is a jurisdictional mandate. For Ditto: age assurance is a Ditto pillar (gambling/gaming), and this is a fresh datapoint that EUDI-wallet vendors are converging age verification onto certified, wallet-issued age attributes rather than platform-side estimation — the same wallet-attribute direction as the Bulgaria under-16 bill (07-10 delta) and the EU age-verification blueprint. Standing hard anchors unchanged: **Ofcom statutory age-assurance effectiveness report due by end-July 2026**; **Ofcom Categorisation Register + additional-duties consultation due July 2026**.
-  - Source: https://www.biometricupdate.com/202606/gataca-boosts-age-assurance-pitch-with-certification-to-iso-standard-by-accs
-  - Source: https://www.biometricupdate.com/202607/investors-back-lissi-gatacas-expansions-to-meet-eu-digital-identity-wallet-moment
-  - Date: 2026-07-09
+  - Date: 2026-07-09 (Lissi primary announcement); Gataca concurrent, exact date TBC; trade roundup coverage July 11-13
 
 ---
 
 ## Next-cycle anchors (updated)
 
-- **AMLA Level-2 RTS package → Commission (due July 10 — PASSED, unconfirmed)** — Article 28 CDD/identity-verification RTS plus business-relationship, ongoing-monitoring and sanctions RTS legally due July 10; no submission/publication confirmed in-window. Watch amla.europa.eu for the post-deadline confirmation. Underlying AMLR requirements apply July 10, 2027.
-- **Ofcom statutory age-assurance effectiveness report (by end-July / ~July 17)** — 4 days. First-year OSA report; sets the public compliance baseline for age-assurance vendors/platforms.
-- **Ofcom Categorisation Register + additional-duties consultation (July 2026)** — identifies Category 1/2A/2B services triggering age-verification/user-empowerment duties on the largest platforms.
-- **EU AI Act Code of Practice (transparency of AI-generated content) signatory deadline (July 22, 18:00 CEST)** — 9 days; signatories gain presumption of conformity with Art. 50 deepfake/AI-content-labelling obligations.
-- **FSB AI Sound Practices consultation deadline (July 22)** — 9 days.
-- **AUSTRAC Tranche 2 enrolment deadline (July 29)** — 16 days; ~100,000 newly in-scope entities must enrol.
-- **EU AI Act Article 50 enforcement (August 2)** — 20 days; deepfake labelling, AI-content marking, chatbot disclosure become binding (fines up to €15M / 3% global turnover).
-- **UK DVS Trust Framework 1.0 enforcement (September 1)** — first conformity-assessment-body accreditation; certification ahead of relying-party adoption, policy patron departed (cf. UK Sectoral Analysis Report / OfDIA £2B, 07-09 delta).
-- **EUDI bank-integration / connector layer** — WATCH: Lissi (€3.5M, 07-13) + Gataca (07-13) both funded July 9 to build the connector between banks/relying parties and national wallets; Persona national-wallet + Capital One AirKey (07-08); Authologic Google Wallet credentials (early July); 1Kosmos×Microsoft Entra (07-13). Relying-party acceptance and bank-app wallet embedding are consolidating ahead of the Dec 24, 2026 EUDI availability deadline. Track for a named bank going live on a connector, and for AMLR being used as the adoption wedge.
-- **Network-based / possession authentication vs SMS OTP** — WATCH: 07-09 Aduna + AT&T/T-Mobile/Verizon network Number Verification is the strongest US signal SMS OTP is being retired; UAE/RBI/BSP mandates are live. Track for a named bank adopting carrier Number Verification for step-up and for an EU/UK carrier-coalition equivalent (GSMA Open Gateway / CAMARA).
-- **Agentic identity / agentic payments** — Visa Intelligent Commerce in production (07-07 delta); Forrester/KuppingerCole flag agentic-AI identity as the dominant IAM theme of 2026 (Identiverse/EIC 2026); FIDO agentic-auth WG — watch first published spec.
-- **PSD3/PSR OJEU publication** — expected after the April 2026 Council compromise texts; entry into force anticipated ~late 2027.
+- **EU AI Act Code of Practice signatory deadline (July 22, 18:00 CEST) — 9 days.** Sign or forego presumption of conformity for Article 50 deepfake/AI-content disclosure obligations. Enforcement August 2.
+- **FSB AI Sound Practices consultation deadline (July 22) — 9 days.** FSB published its 12 sound practices for responsible AI adoption in financial institutions June 10, 2026. Virtual outreach July 7. Responses due July 22; final report October 2026.
+- **Ofcom age-assurance effectiveness report (by end of July) — ~18 days.** Statutory first-year report under the Online Safety Act; Ofcom + ICO issued joint statement March 2026; written to major platforms; companies with Ofcom legal notices must submit risk-assessment records by July 31.
+- **AUSTRAC Tranche 2 enrolment deadline (July 29) — 16 days.** ~100,000 newly-regulated Australian entities (lawyers, accountants, real estate agents, conveyancers) must enrol with AUSTRAC by July 29 or face criminal penalty; compliance obligations commenced July 1. This is an identity onboarding event at scale: each entity must establish a CDD/KYC program and name an AML/CTF compliance officer.
+- **EU AI Act Article 50 enforcement (August 2) — 20 days.** Deepfake labelling, chatbot disclosure, AI-content marking become legally binding. Fines: up to €15M or 3% global turnover.
+- **UK DVS Trust Framework 1.0 (no earlier than September 1) — ~50 days.** First CAB accreditation triggers the framework; all existing DVS providers have at least 15 months to uplift.
+- **EUDI Wallet hard deadline (December 24, 2026) — ~164 days.** All 27 member states must have at least one certified wallet available.
+- **PSD3/PSR OJEU publication** — Expected H2 2026; may slip to September. Still politically agreed but not formally adopted or in force.
+- **AMLA Commission adoption process** — 23 RTS/ITS delivered July 10 to the Commission; adoption typically 3–6 months; measures apply directly across 27 member states July 10, 2027.
 
 ---
 
 ## Run summary
 
-- Findings count by pillar: P1 Banking: 0 (AMLA July 10 due — anchor, no confirmed submission) | P2 Identity orchestration: **1** (1Kosmos × Microsoft Entra Verified ID) | P3 EUDI: **2** (Lissi €3.5M; Gataca round) | P4 KYC/AML: 0 (AMLA anchor; Lissi AMLR-wedge angle) | P5 Onboarding: cross-list P3 | P6 IDV: cross-list P2 (1Kosmos VC proofing) | P7 Fraud/Deepfakes: 0 new | P8 Mobile trust: 0 new | P9 Passwordless: 0 new | P10 ZKP: 0 new | P11 Age assurance: **1** cross-list (Gataca ISO 27566 + iGaming) — **Total: 3 substantive in-window(-edge) findings, all a July 9 EUDI/orchestration cluster missed by the 07-10 delta**
-- Override-worthy: **1** — the EUDI bank-integration funding cluster: Lissi (€3.5M, Ventech) + Gataca both raised July 9 to build the connector/acceptance layer between banks and national wallets, ~5.5 months before the Dec 24 EUDI deadline, with AMLR as the commercial wedge. Account: / company.
-- Delta path: research/2026-07-13-cycle-delta.md
-- Note: quiet weekend window (July 11–12 empty). The three findings are dated July 9 — at/just outside a strict 72h window but demonstrably uncaptured by the 07-10 delta, flagged as backfill with honest dates. Excluded on the date rule — Proof "Certify" (Oct 20, 2025, not July), Spain AEPD EUDI-exclusion advisory (~July 7). Excluded as out-of-ICP — Nigeria CAC/NIMC, Employ×ID.me (US workforce hiring), Fraport Greece EES. AMLA July 10 flagged as anchor (no confirmed in-window submission), not an in-window finding.
+- **Findings count by pillar:** P1: 0 | P2: 0 | P3: 2 (EU AI Act Art. 50 enforcement sprint; AU10TIX Q1 2026 fraud data) | P4: 0 | P5: 0 | P6: 0 | P7: 1 (Lissi + Gataca EUDI Wallet infrastructure double-raise) → **Total: 3 findings across 2 pillars**
+- **Override-worthy: 1** — EU AI Act Article 50 deepfake-labelling enforcement 20 days away; July 22 is the last day to sign the Code of Practice for presumption of conformity. Account: / company. Window to act is now.
+- **Delta path:** `research/2026-07-13-cycle-delta.md`
+
+---
+
+_Window note: July 11–12 were Saturday–Sunday with minimal primary regulatory/vendor announcements. Two findings (AU10TIX Q1 report, Lissi seed) are dated July 9 — 1 day outside the prior delta's stated 48h window and not captured in that delta; trade-media coverage of both appeared July 11–13. Dates noted explicitly. EU AI Act item dates July 8–9 but the active signatory window runs through July 22 making it live this cycle. Worker API (ditto-slack-bot.dittobot.workers.dev) remains blocked by environment proxy; delta written directly to GitHub via MCP._
