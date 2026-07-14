@@ -1,86 +1,84 @@
 # Cycle Delta — 2026-07-14
 
-Window: 2026-07-12 → 2026-07-14 (last 48 hours — Tuesday run). The Monday 07-13 delta backfilled the July 9 EUDI/orchestration cluster (Lissi €3.5M, Gataca round, 1Kosmos × Microsoft Entra). This cycle the fresh, in-window cluster is **policy/standards, not funding**: (1) **Ursula von der Leyen signals binding EU social-media age rules with the EU's privacy-preserving, open-source age-verification app as the enforcement tool** (July 13, on receiving the Special Panel on Child Safety Online report — proposal to come "after the summer"); (2) **OpenAI mandates hardware-backed passkeys (YubiKey) for its Trusted Access for Cyber program, Sept 1 deadline** (July 13) — a marquee phishing-resistant-auth proof point. Backfilled with an honest date: (3) **the ITU launched a Focus Group on Trust and Identity for Humans and Agentic AI at AI for Good** (press release July 9) — a UN-body standards move directly in 's agentic-identity territory that prior deltas missed. Excluded as out-of-window/covered: Wultra €6.8M post-quantum Series A (July 1, prior-cycle); Persona national-wallet + Capital One AirKey coverage expansion (07-08 anchor). Excluded as out-of-ICP: Hitachi/Tobu Tokyo face-recognition ticket gates; Tokyo ward outdoor FR cameras; BigBear.ai Pangiam Dutch airport approval; US–CARICOM biometric data-sharing compact; South Africa handheld biometric tender. Banking pillar quiet in-window — AMLA's 23-measure RTS/ITS package (incl. the Article 28 CDD/identity-verification RTS) was submitted to the Commission July 10 (captured in the 07-10 delta) and now sits in the 3–6-month adoption process; no new EBA/ECB/FCA/PSR print July 12–14.
+Window: 2026-07-11 → 2026-07-14 (72-hour Fri-Mon weekend window; prior delta covered through 2026-07-13)
 
-Integrity note: items (1) and (2) are dated **July 13** and are squarely in-window. Item (3) is dated **July 9** (ITU press release) — outside a strict 48-hour window but demonstrably uncaptured by the 07-10 and 07-13 deltas; it is flagged below as backfill with an honest date, not presented as a July 12–14 event.
+---
 
 ## Override-worthy this cycle
 
-1. **The EU just told platforms the age-check burden is theirs — and named the tool: von der Leyen backed a binding social-media minimum age (under-13s only with adult supervision) enforced via the EU's own "easy to use, privacy-preserving, open-source" age-verification app, with a legislative proposal due after the summer (July 13).** Account: company /. Angle: the policy has now explicitly chosen *privacy-preserving age proof* over both self-declaration checkboxes and invasive data-harvesting — which is the exact selective-disclosure primitive Ditto sells. POV hook: "Brussels just settled the age-verification debate the way identity engineers hoped: not 'upload your passport to a social network,' not 'tick a box,' but 'prove you're over the line and reveal nothing else.' Every regulated operator with an age gate — gaming, gambling, alcohol, adult, now social — is about to be measured against that standard. If your age check still captures a full ID to answer a yes/no question, you're on the wrong side of where the regulation is heading." Ecosystem/policy datapoint — do not name a vendor.
+1. **Von der Leyen announces EU will legislate harmonized social media age assurance — under-13 access restriction proposed, EUDI Wallet age verification app the stated mechanism** — EU Commission President signals binding proposal after summer; mandated age assurance must be privacy-preserving (no ID documents or biometric data for age estimation), implicitly pointing to selective-disclosure and wallet-based proofs. Account: / company. Angle: "The EU just committed to mandating age assurance at social media scale — and the privacy constraint written into the expert panel report rules out classical ID scanning by design. This is a ZKP / selective-disclosure problem: prove age without showing your face or handing over your passport. That market just got validated by the President of the European Commission."
 
-2. **Identity is being formalised as the control plane for AI agents at the UN level: the ITU opened a Focus Group on Trust and Identity for Humans and Agentic AI (AI for Good, July 9), to build reference architectures binding autonomous agents to legally accountable entities before they can transact or touch critical infrastructure.** Account: / company. Angle: the agentic-identity theme that dominated Identiverse/EIC 2026 now has a global-standards body behind it — "who is this agent, and can its actions be trusted" is becoming a certification problem, not a whitepaper. (Backfill — July 9, missed by prior deltas.) Do not name a vendor.
+---
 
 ## New findings
 
 ### Pillar 1: Banking & Payments
-(no new discrete in-window publication. **AMLA's 23-measure RTS/ITS package — incl. the Article 28 CDD / identity-verification RTS — was submitted to the European Commission on July 10** (captured in the 07-10 delta) and is now in the Commission adoption process (typically 3–6 months); underlying AMLR requirements apply July 10, 2027. PSD3/PSR: provisional political agreement reached Nov 27, 2025; OJEU publication still anticipated H1 2026 with entry into force ~2027 after a 21-month transition — no new OJEU date in window. The EBA/ECB €2.2B 2024 credit-transfer-fraud figure (+16% YoY, ~85% borne by customers) remains standing context. No new EBA / ECB / FCA / PSR publication confirmed July 12–14.)
+*(no new primary-source material in window; EBA third-country-branch guidelines published July 7, outside window; PSD3/PSR OJEU publication still pending; AMLA Commission adoption of July 10 RTS/ITS package covered in prior delta)*
 
-### Pillar 2: Identity orchestration
-- **ITU launches Focus Group on Trust and Identity for Humans and Agentic AI (announced July 9, 2026, at the AI for Good Global Summit — backfill, missed by prior deltas)** — The International Telecommunication Union (the UN's digital-technologies agency) established a Focus Group to develop common terminology, reference architectures, lifecycle-assurance models, trust frameworks, and security/benchmark criteria for the identity and trustworthiness of both human operators and autonomous AI agents. The ITU's framing: identity systems establish *who* is acting; trustworthiness determines *whether that actor is reliable* — and both are prerequisites before agents can safely execute financial transactions or operate critical infrastructure. The group is open to all experts and meets first in Paris (November 2026), then Geneva (January 2027). For Ditto: the agentic-identity theme that Forrester (Identiverse 2026: "identity security for agentic AI dominates"; "actions, not access") and KuppingerCole (NHI-to-agentic continuum) flagged as the dominant 2026 IAM narrative now has a UN standards body behind it. The orchestration read: the differentiation question is moving from "can you verify a human" to "can you cryptographically bind an autonomous agent to a legally accountable principal, and continuously assess its behaviour" — a verify-once-then-continuously-attest pattern that is squarely orchestration territory. Ecosystem/standards datapoint — do not name a vendor.
-  - Source: https://www.itu.int/en/mediacentre/Pages/PR-2026-07-09-focus-group-agentic-AI.aspx
-  - Source: https://idtechwire.com/itu-opens-standards-work-on-identity-and-trust-for-humans-and-ai-agents/
-  - Source: https://thenextweb.com/news/itu-un-ai-agents-trust-initiative
-  - Date: 2026-07-09
+---
 
-### Pillar 3: EUDI / eIDAS2
-(no new discrete in-window material. The July 9 EUDI funding cluster — Lissi (€3.5M, Ventech) and Gataca — was captured in the 07-13 delta; Persona's national-wallet + Capital One AirKey coverage expansion is the 07-08 anchor. No new ARF update, ENISA certification publication, or member-state launch confirmed July 12–14. Standing anchor unchanged: EUDI wallet availability deadline Dec 24, 2026; relying-party acceptance in regulated sectors from ~late 2027.)
+### Pillar 2: EUDI / eIDAS2
+*(no new ARF update, ENISA certification publication, or member-state launch confirmed July 11–14; eideasy.com July 2 member-state tracker pre-dates window; Denmark AltID production launch noted in that tracker but dated July 2)*
 
-### Pillar 4: KYC / AML compliance
-(no new discrete in-window publication. **AMLA's Level-2 RTS/ITS package was submitted to the Commission July 10** — the Article 28 CDD RTS specifies the information/documents obliged entities may collect and rely on to verify customer and beneficial-owner identity under standard, simplified and enhanced CDD, plus electronic-identification and reliable-source requirements. Now in Commission adoption (3–6 months); AMLR applies July 10, 2027. FATF seventh targeted update on VA/VASP standards (approved June plenary) still pending publication. AUSTRAC Tranche 2 enrolment deadline July 29.)
+---
 
-### Pillar 5: Customer onboarding
-(no new discrete onboarding-KPI study in window. Standing benchmarks unchanged (Signicat ~68% fintech drop-off; Fenergo 70% of FIs lost prospects to slow onboarding). Note the standing thesis reinforced by both live items: the von der Leyen age-verification app (P11) and the ITU agentic-identity work (P2) both push toward "present a verifiable attribute once, reveal nothing more" as the onboarding/authorization primitive.)
+### Pillar 3: Fraud / Deepfakes
 
-### Pillar 6: Identity verification (IDV)
-(no new in-window iBeta / NIST IAL / FIDO Document Authenticity output confirmed July 12–14. Wultra's €6.8M post-quantum-auth Series A is dated July 1 (prior cycle, out of window). NIST SP 800-63 Rev.4 (final July 2025) and the FIDO DocAuth certification programme remain standing context.)
-
-### Pillar 7: Fraud / Deepfakes
-(no new primary-source report or named bank incident dated July 12–14. Standing hard-data prints unchanged: AU10TIX Q1 2026 report (3.89% confirmed fraud rate, AI-generated fraud dominant, mined in the 07-10 delta); Sumsub deepfakes ≈11% of global fraud (2026); iProov +2,665% virtual-camera-injection spike; Veriff net fraud rate >4% for a third year. The WEF "Unmasking Cybercrime … Deepfakes 2026" report (published Jan 8, 2026) remains out of window.)
-
-### Pillar 8: Mobile trust & app security
-(no new named banking-malware campaign or CVE dated July 12–14. Anatsa (device-takeover Android banking trojan, accessibility-service abuse, recurring Google Play dropper campaigns across Europe/North America) and Sturnus.A remain active per threat-intel, but no new dated campaign in window. Standing anchor: the 07-09 Aduna network-based Number Verification launch.)
-
-### Pillar 9: Passwordless / split-key
-- **OpenAI mandates hardware-backed passkeys for its Trusted Access for Cyber program — Sept 1 deadline, Yubico partnership (announced July 13, 2026)** — OpenAI will require members of its Trusted Access for Cyber program (vetted security researchers/organisations granted elevated access to its most cyber-capable models for defensive work — vulnerability triage, malware analysis, detection engineering, patch validation) to enable Advanced Account Security with a hardware-backed passkey; from September 1, members who don't comply revert to default model access. Hardware-bound credentials store the private key in a physical security key (can't be copied or remotely extracted) and verify the legitimate service before authenticating, resisting phishing and adversary-in-the-middle attacks. Yubico is the rollout partner and is offering OpenAI account holders discounted YubiKey two-packs. For Ditto: a marquee, highly-visible datapoint that the highest-assurance access tier is being gated behind phishing-resistant, hardware-bound authentication — not SMS OTP, not app codes, not passwords. It reinforces the standing passwordless thesis (NIST SP 800-63B Rev.4 classes SMS/PSTN OTP as restricted; UAE/RBI/BSP OTP-sunset mandates live; ~5B active passkeys at World Passkey Day 2026) with a headline name attaching "hardware-bound = the bar for anything that matters." Ecosystem datapoint — do not name a vendor. (ICP note: OpenAI is not a regulated-finance ICP; value is as a category proof point, not a customer signal.)
-  - Source: https://www.yubico.com/blog/openai-mandates-hardware-backed-passkeys-for-trusted-access-cyber-members-to-log-into-chatgpt-accounts/
-  - Source: https://cybernews.com/security/openai-access-for-cyber-hardware-backed-passkeys/
-  - Source: https://idtechwire.com/openai-to-require-hardware-passkeys-for-access-to-its-most-capable-cyber-models/
-  - Date: 2026-07-13
-
-### Pillar 10: ZKPs in practice
-(no new discrete bank ZKP pilot, OpenID4VP/VCI deployment or mDL milestone confirmed July 12–14. Selective-disclosure relevance is embedded in the von der Leyen age-verification-app framing (P11) — "prove your age while keeping your identity anonymous" is the canonical ZKP/selective-disclosure use case, now endorsed at EU-policy level — but is not a discrete ZKP announcement. OID4VP 1.0 remains standing context.)
-
-### Pillar 11: Age assurance & privacy attributes
-- **Von der Leyen signals binding EU social-media age rules, with the EU's privacy-preserving age-verification app as the enforcement tool (July 13, 2026)** — Receiving the report of the Special Panel on Child Safety Online, European Commission President Ursula von der Leyen said the EU will propose rules on children's access to social media "after the summer," and pointed to the bloc's own age-verification app as a key enforcement mechanism. Her three-point framing: (1) platforms bear the full legal burden of product safety (shifted away from parents/families); (2) an EU-developed age-verification app she described as "easy to use, privacy-preserving, and open source," letting users prove age while keeping identity anonymous; (3) a social-media "start date" — a minimum age below which children can't legally join platforms, with under-13s using social media only under adult supervision and for limited periods. The strategy explicitly rejects both easily-bypassed self-declaration and invasive data-harvesting in favour of privacy-preserving, data-minimising third-party age verification. For Ditto: age assurance is a Ditto pillar (gambling/gaming, plus the broader age-gate surface), and this is the clearest policy signal yet that the EU is standardising on *cryptographic, selective-disclosure age proof* rather than document upload or platform-side estimation — the same wallet-attribute/ZKP direction as the Bulgaria under-16 bill (07-10 delta), the EU age-verification blueprint, and Gataca's ISO/IEC 27566 age-assurance certification (07-13). It broadens the addressable age-assurance mandate from gambling/adult content into mainstream social platforms. Standing hard anchors unchanged: **Ofcom statutory age-assurance effectiveness report due by end-July 2026**; **Ofcom Categorisation Register + additional-duties consultation due July 2026**; risk-assessment records for Ofcom-noticed firms due July 31. Ecosystem/policy datapoint — do not name a vendor.
+- **Von der Leyen announces EU will propose harmonized social media access restrictions for under-13, with mandated privacy-preserving age assurance systems** — On July 13, 2026, European Commission President Ursula von der Leyen publicly backed a proposal to harmonise social media access rules for children under 13 across the EU, citing a 150-page report from a Special Panel on Child Safety Online (which met March–June 2026). The panel's lead recommendation: a "harmonised EU-wide access restriction to social media and other digital services for children under 13" backed by "effective age assurance systems." Von der Leyen indicated that children under 13 should only access social media under adult supervision for limited periods and called the case for restricting under-3s from screens "most convincing." The Commission will bring forward a legislative proposal after the summer recess. Crucially, the expert panel report specifies that any age assurance mechanism must uphold the highest privacy and data protection standards and **must not lead to the processing of identity documents or biometric data for the purpose of age estimation** — a deliberate constraint that rules out classical KYC-style ID scanning and biometric capture. Von der Leyen explicitly pointed to the EU's age verification app (linked to the EUDI Wallet ecosystem) as one of the candidate tools. For Ditto: the EU is creating a binding mandate for privacy-preserving age attestation at social-media scale across 450M+ EU citizens, with the privacy constraint written into the policy itself ruling out traditional document-scanning and face-matching approaches. Selective disclosure, zero-knowledge age proofs, and wallet-based age attestations are now the explicitly preferred technical architecture — a Ditto use-case validated at presidential level eight months before the proposal even lands.
   - Source: https://www.euronews.com/my-europe/2026/07/13/von-der-leyen-social-media-ban
-  - Source: https://fortune.com/2026/07/13/eu-social-media-under-13-safety-burden/
+  - Source: https://www.biometricupdate.com/202607/european-commission-calls-for-mandated-age-assurance-for-social-media
   - Source: https://idtechwire.com/von-der-leyen-signals-eu-social-media-age-rules-with-age-verification-app-as-a-tool/
+  - Source: https://fortune.com/2026/07/13/eu-social-media-under-13-safety-burden/
   - Date: 2026-07-13
 
 ---
 
-## Next-cycle anchors (updated)
+### Pillar 4: ZKPs in practice
+*(no new EU bank ZKP pilot, OpenID4VP/VCI update, or mDL deployment confirmed July 11–14; HAIP 1.1 and OID4VP 1.1 remain in progress with December 2026 publication targets; OpenID Foundation self-certification programme launched February 2026 — outside window)*
 
-- **Ofcom statutory age-assurance effectiveness report (by end-July / ~July 17)** — ~3 days. First-year OSA report; sets the public compliance baseline for age-assurance vendors/platforms. Lands directly into the von der Leyen EU age-rules momentum (P11).
-- **Ofcom Categorisation Register + additional-duties consultation (July 2026)** — identifies Category 1/2A/2B services triggering age-verification/user-empowerment duties.
-- **Ofcom-noticed firms risk-assessment records due (July 31)** — companies served legal notices must submit records or risk enforcement.
-- **EU AI Act Code of Practice (transparency of AI-generated content) signatory deadline (July 22, 18:00 CEST)** — ~8 days; signatories gain presumption of conformity with Art. 50 deepfake/AI-content-labelling obligations.
-- **FSB AI Sound Practices consultation deadline (July 22)** — ~8 days.
-- **AUSTRAC Tranche 2 enrolment deadline (July 29)** — ~15 days; ~100,000 newly in-scope entities must enrol.
-- **EU AI Act Article 50 enforcement (August 2)** — ~19 days; deepfake labelling, AI-content marking, chatbot disclosure become binding (fines up to €15M / 3% global turnover).
-- **OpenAI hardware-passkey enforcement (Sept 1)** — Trusted Access for Cyber members lose elevated model access without a hardware-backed passkey; watch for other high-assurance platforms adopting the same bar.
-- **UK DVS Trust Framework 1.0 enforcement (September 1)** — first conformity-assessment-body accreditation; policy patron departed (cf. OfDIA £2B sectoral report, 07-09 delta).
-- **AMLA Level-2 RTS/ITS → Commission adoption** — 23 measures submitted July 10; Commission adoption typically 3–6 months; final text late 2026/early 2027; AMLR applies July 10, 2027. The Article 28 CDD RTS defines "compliant" identity verification EU-wide.
-- **EUDI bank-integration / connector layer** — WATCH: Lissi (€3.5M) + Gataca funded July 9; Persona national-wallet + Capital One AirKey (07-08); 1Kosmos × Microsoft Entra (July 9). Relying-party acceptance and bank-app wallet embedding consolidating ahead of Dec 24, 2026. Track for a named bank going live on a connector and for AMLR used as the adoption wedge.
-- **Agentic identity / agentic payments** — WATCH: ITU Focus Group on Trust & Identity for Humans and Agentic AI (first meeting Paris, Nov 2026); Forrester/KuppingerCole flag agentic-AI identity as the dominant 2026 IAM theme; Visa Intelligent Commerce in production (07-07); FIDO agentic-auth WG. Track for the first published ITU/FIDO reference architecture.
-- **Network-based / possession authentication vs SMS OTP** — WATCH: 07-09 Aduna + AT&T/T-Mobile/Verizon network Number Verification; UAE/RBI/BSP OTP-sunset mandates live; OpenAI hardware-passkey mandate (07-14) adds a marquee name to the phishing-resistant-auth column.
-- **PSD3/PSR OJEU publication** — provisional agreement Nov 27, 2025; OJEU anticipated H1 2026; entry into force ~2027 after a 21-month transition.
+---
+
+### Pillar 5: Passwordless / split-key
+*(no new FIDO Alliance specification, regulator OTP-sunset publication, or major bank passkey deployment announcement confirmed July 11–14)*
+
+---
+
+### Pillar 6: LATAM
+
+- **US and CARICOM IMPACS sign first multilateral biometric data-sharing MOU — fingerprints, facial recognition, criminal registry automated exchange covering six Caribbean CBI nations** — On July 10, 2026 (reporting coverage July 11–13), the US Department of Homeland Security (DHS) and the CARICOM Implementation Agency for Crime and Security (IMPACS) signed a Biometrics Data Sharing Partnership (BDSP) Memorandum of Cooperation at the Embassy of Saint Kitts and Nevis in Washington, D.C. The arrangement covers the automated exchange of fingerprint records, facial recognition profiles, and criminal registry datasets between US border management systems and CARICOM member states offering Citizenship by Investment (CBI) programmes: Antigua and Barbuda, Dominica, Grenada, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines. The Eastern Caribbean Central Bank was also represented at the signing. The MOU is intended to be operational before end of 2026. For Ditto /: the six named CARICOM countries are all major CBI nations — meaning a material share of their passport-holder population consists of economic migrants from other jurisdictions, a documented high-risk identity population for financial institutions. The US-CARICOM BDSP changes the due-diligence environment for Caribbean identity: banks and payment providers onboarding customers with passports from these nations will face heightened cross-border biometric verification requirements as the MOU operationalises. This is both a risk signal for existing identity flows and a commercial trigger for identity vendors with cross-border verification capability.
+  - Source: https://www.state.gov/releases/office-of-the-spokesperson/2026/07/united-states-and-caricom-impacs-sign-landmark-biometrics-and-data-sharing-partnership-memorandum-of-cooperation/
+  - Source: https://www.biometricupdate.com/202607/us-caricom-establish-regional-biometric-data-sharing-partnership
+  - Source: https://www.jamaicaobserver.com/2026/07/11/us-caricom-sign-landmark-border-security-pact/
+  - Date: 2026-07-10 (signed); 2026-07-11 (first press coverage); 2026-07-13 (ID Tech Digest roundup)
+
+---
+
+### Pillar 7: Identity ecosystem
+*(no new Forrester/KuppingerCole/Gartner/Liminal report publication, funding round, or M&A transaction confirmed July 11–14; Forrester Wave Workforce Identity Security Platforms Q2 2026 published May 2026 — outside window; Lissi/Gataca covered in July 13 delta)*
+
+---
+
+## Next-cycle anchors (updated — countdown as of 2026-07-14)
+
+- **EU AI Act Code of Practice signatory deadline (July 22, 18:00 CEST) — 8 days.** Sign or forgo presumption of conformity for Article 50 deepfake/AI-content disclosure obligations. Enforcement August 2.
+- **FSB AI Sound Practices consultation deadline (July 22) — 8 days.** 12 sound practices for responsible AI adoption in financial institutions; responses via secure online form by July 22; final report October 2026.
+- **Ofcom age-assurance effectiveness report (by end of July) — ~17 days.** Statutory first-year report under the UK Online Safety Act assessing how services used age assurance and how effective it was. Joint Ofcom/ICO effort; expected to give "practical actions" for platforms on highly effective age checks. Now directly adjacent to the von der Leyen EU announcement.
+- **AUSTRAC Tranche 2 enrolment deadline (July 29) — 15 days.** ~100,000 newly regulated Australian entities (lawyers, accountants, real estate agents, conveyancers) must enrol with AUSTRAC by July 29; obligations already in force from July 1; non-enrolment is a strict-liability offence.
+- **EU AI Act Article 50 enforcement (August 2) — 19 days.** Deepfake labelling, chatbot disclosure, AI-content marking become legally binding. Fines up to €15M or 3% global turnover.
+- **Von der Leyen EU social media age assurance proposal — post-summer (September/October 2026 estimate).** Legislative proposal expected after EU summer recess; the Special Panel report is the technical blueprint. Watch for: scope (social media only vs. broader digital services), the specific age assurance standard referenced, and whether EUDI Wallet integration is mandated.
+- **UK DVS Trust Framework 1.0 (no earlier than September 1) — ~49 days.** First CAB accreditation triggers the framework. OfDIA introduced machine-readable technology to the DVS register on July 9 in preparation.
+- **EUDI Wallet hard deadline (December 24, 2026) — ~163 days.** All 27 member states must have at least one certified wallet available.
+- **PSD3/PSR OJEU publication** — Expected H2 2026; may slip to September.
+- **AMLA Commission adoption process** — 23 RTS/ITS delivered July 10; adoption typically 3–6 months; measures apply July 10, 2027.
 
 ---
 
 ## Run summary
 
-- Findings count by pillar: P1 Banking: 0 (AMLA submitted July 10 — standing anchor, in adoption) | P2 Identity orchestration: **1** (ITU agentic-AI identity Focus Group — July 9 backfill) | P3 EUDI: 0 (July 9 cluster covered 07-13) | P4 KYC/AML: 0 (AMLA anchor) | P5 Onboarding: 0 (thesis reinforced, no new study) | P6 IDV: 0 (Wultra July 1, out of window) | P7 Fraud/Deepfakes: 0 new | P8 Mobile trust: 0 new | P9 Passwordless: **1** (OpenAI hardware passkeys, July 13) | P10 ZKP: 0 new (age-app selective-disclosure cross-ref) | P11 Age assurance: **1** (von der Leyen EU age rules + EU age-verification app, July 13) — **Total: 3 findings across 3 pillars; 2 in-window (July 13) + 1 honest backfill (July 9).**
-- Override-worthy: **2** — (1) von der Leyen backs binding EU social-media age rules enforced via the EU's privacy-preserving age-verification app (July 13), the clearest policy endorsement yet of selective-disclosure age proof over document upload — account: company /; (2) ITU opens a Focus Group on Trust and Identity for Humans and Agentic AI (July 9 backfill), formalising identity as the control plane for autonomous agents — account: / company.
-- Delta path: research/2026-07-14-cycle-delta.md
-- Note: quiet in-window cycle skewed to policy/standards rather than funding. Excluded on the date rule — Wultra €6.8M (July 1), Persona coverage expansion (07-08 anchor). Excluded as out-of-ICP — Hitachi/Tobu + Tokyo ward face recognition, BigBear.ai Pangiam airport, US–CARICOM biometric compact, South Africa handheld tender. AMLA July 10 submission is the 07-10 delta's finding, carried here only as a standing anchor.
+- **Findings count by pillar:** P1: 0 | P2: 0 | P3: 1 (Von der Leyen EU social media age assurance mandate) | P4: 0 | P5: 0 | P6: 1 (US-CARICOM biometric data-sharing MOU) | P7: 0 → **Total: 2 findings across 2 pillars**
+- **Override-worthy: 1** — Von der Leyen confirms EU will legislate harmonized under-13 social media age restriction with mandated privacy-preserving age assurance (no biometrics/ID docs); EUDI Wallet app referenced as preferred mechanism; proposal after summer recess. Account: / company.
+- **Delta path:** `research/2026-07-14-cycle-delta.md`
+
+---
+
+_Window note: July 11–13 were Saturday–Sunday–Monday with lower primary regulatory output. Two findings confirmed: von der Leyen age assurance announcement (July 13, verified across Euronews / ABC News / Fortune / Biometric Update / ID Tech) and US-CARICOM biometric MOU (signed July 10, state press and trade coverage July 11–13). Worker API (ditto-slack-bot.dittobot.workers.dev) remains blocked by environment proxy; delta written directly to GitHub via MCP._
