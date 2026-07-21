@@ -1,0 +1,89 @@
+# Cycle Delta — 2026-07-21
+
+Window: 2026-07-19 → 2026-07-21 (last 48 hours — Tuesday run). This is a **light cycle with one on-thesis LATAM finding**. The freshest concrete print in-window is the **July 20 ID Tech digest**, whose single strongest on-pillar item is **Hopae adding real-time biometric verification of Brazil's digital driver's license (CNH / Carteira Digital de Trânsito)** — a remote IDV-of-a-government-credential play (QR decode + selfie-to-registry facial match + passive liveness), aimed explicitly at regulated financial services, mobility, and online gaming. That is squarely Ditto Verify territory (verify a government digital credential remotely, bind the presenter to the record with liveness) and a clean **LATAM read**. Two weaker, directional-only items landed the same day: the **Precise Biometrics × Fingerprint Cards merger** (device-biometric *hardware* consolidation — off-core layer, but a consolidation cross-ref to Fourthline/Veridas) and **Greater Manchester Mayor Andy Burnham announcing he will withdraw support for the UK national digital-ID framework** in his city-region in favour of "federated portals controlled at the city-region layer" — a centralisation-vs-federation political-friction datapoint, adjacent to orchestration but government-ID rather than financial-services ICP. Banking, AML, EUDI, fraud, mobile, passwordless and ZKP produced no new discrete in-window print.
+
+Integrity note: the one carried finding (Hopae/Brazil CNH) is dated **July 20, 2026**, in-window, confirmed via the ID Tech digest item and its dedicated writeup; it was **not** in any prior delta. Honest exclusions this cycle — each real but off-pillar/off-ICP or out-of-window: (a) **WA Police mobile facial-recognition trial** (130k faces scanned, 19 arrests) and **Victoria's proposed workplace-biometrics limits** — both APAC law-enforcement/workplace surveillance, off-pillar. (b) **Nigeria NIN integration for mining-sector oversight** (July 20) — government ID4D/ID4Africa-adjacent, off-ICP; directional only. (c) **AAMVA mDL Implementation Guidelines 1.6** — sourced as "released July 2026" with no precise in-window date confirmed; standing mDL context, not carried as an in-window finding. (d) **EU AI Act Code of Practice on transparency of AI-generated content** signatory deadline is **July 22, 18:00 CEST** (tomorrow) with the first signatory list to publish ahead of Article 50 enforcement on **Aug 2** — a standing next-cycle anchor, not a new event today. (e) Brazil Pix / Mexico CNBV fraud figures (Febraban R$2.7bn Pix fraud; Mexico ATO +324%) surfaced in search but are **evergreen/undated**, not new 19–21 Jul print — standing LATAM context.
+
+## Override-worthy this cycle
+
+1. **Brazil's digital driver's license just got a remote-verification layer: Hopae added biometric verification of the CNH (Carteira Digital de Trânsito) — QR decode + a live selfie matched against the official driver-registry photo, plus a passive liveness gate before a credential can even be downloaded — pitched at regulated financial services, mobility and online gaming (July 20, 2026).** Account: / company. Angle: this is the exact shape of the "verify a government-issued digital credential remotely" problem Ditto Verify addresses, arriving in a Tier-1 LATAM market — and the interesting design tell is that the liveness check is placed at *download/provisioning* time (to stop a third party loading a valid identity onto compromised hardware), not just at presentation. POV hook: "A digital driver's license is only as trustworthy as the moment it's bound to a person. Brazil's CDT is now being wrapped with a step most credential rollouts skip — proving a live human owns the device *before* the credential lands on it, then re-proving the presenter matches the registry photo every time it's shown. That's the difference between 'I have a valid credential' and 'I am the person this credential belongs to.' As mDLs and national digital IDs go mainstream across LATAM, the verification layer — liveness at provisioning *and* at presentation, checked against the source registry — is where fraud gets stopped, and it doesn't come bundled with the wallet." Ecosystem/market datapoint — do not name a vendor; critique the pattern (credential issuance ≠ credential verification).
+
+## New findings
+
+### Pillar 1: Banking & Payments
+(no new discrete in-window publication. PSD3/PSR: agreed texts published 23 Apr 2026; ECON confirmed 18 May it will recommend second-reading adoption without amendment; OJEU publication still anticipated summer 2026, possibly slipping to September — no new OJEU date 19–21 Jul. AMLA Level-2 RTS/ITS package (submitted 10 Jul) remains in Commission adoption; AMLR applies 10 Jul 2027. No new EBA / ECB / FCA / PSR / DORA print confirmed 19–21 Jul.)
+
+### Pillar 2: Identity orchestration
+- **Directional only — UK national digital-ID framework hits regional political friction: Greater Manchester Mayor Andy Burnham announces he will withdraw support for the unified UK national digital-ID scheme in his city-region, favouring "localized, decentralized data management" and "federated portals controlled at the city-region layer" (July 20, 2026)** — Government-ID rather than financial-services ICP, so not a core in-window finding, but a usable orchestration-thesis datapoint: the argument is explicitly centralisation-vs-federation, and it surfaces the same question Ditto sells into — whether a single centralised identity store or a federated/orchestrated model wins on trust and exclusion risk. Directional colour, not a standalone finding.
+  - Source: https://idtechwire.com/andy-burnham-to-scrap-uk-national-digital-id-plan/
+  - Date: 2026-07-20
+
+- **Directional only — device-biometric hardware consolidation: Precise Biometrics completes its merger with Fingerprint Cards (July 20, 2026)**, combining fingerprint-recognition algorithms + liveness software with sensor manufacturing, targeting smart mobile devices, biometric payment cards and enterprise access control. Off-core layer (device hardware, not IDV/onboarding orchestration), but a consolidation cross-ref to the Fourthline × Veridas merger (07-17) — the "point players are fusing into platforms" pattern is now visible at both the hardware-biometric and the software-verification layers. Directional only.
+  - Source: https://idtechwire.com/precise-biometrics-completes-fingerprint-cards-merger/
+  - Date: 2026-07-20
+
+(No new Forrester/KuppingerCole/Gartner/Datos publication, funding round or software-IDV M&A confirmed 19–21 Jul. Standing consolidation anchor: Fourthline × Veridas merger (07-17), closing H2 2026. Agentic-identity references unchanged: FIDO Agentic Authentication WG; Entrust Agentic AI Trust Accelerator (07-14); ITU Focus Group first meeting Paris Nov 2026.)
+
+### Pillar 3: EUDI / eIDAS2
+(no new in-window ARF update, ENISA certification, or member-state wallet launch confirmed 19–21 Jul. The EU age-verification trusted list / Denmark AltID first-entry item remains a **~July 6–10** event (already excluded 07-17, carried as pre-window context 07-16) — not new. Standing anchors unchanged: EUDI wallet availability deadline 24 Dec 2026; relying-party acceptance in regulated sectors from ~late 2027; EU–Japan cross-border interoperability pilot (07-17/07-20) remains the freshest interop signal. Cross-ref P6: the Hopae/Brazil CNH item is a LATAM analogue of the "verify a government digital credential remotely" problem the EUDI relying-party mandate will create in Europe.)
+
+### Pillar 4: KYC / AML compliance
+(no new discrete in-window publication 19–21 Jul. Standing context unchanged: EU CASP MiCA transitional/grandfathering ended 1 Jul 2026; AMLA Level-2 RTS/ITS package (23 measures, submitted 10 Jul) in Commission adoption; AMLR applies 10 Jul 2027; AUSTRAC Tranche 2 enrolment deadline 29 Jul. FATF's July 2026 VASP/Travel-Rule review (uneven enforcement, call for stronger stablecoin/unhosted-wallet supervision) is standing context from earlier July, not new 19–21 Jul print. No new FinCEN / AMLA discrete print over the window.)
+
+### Pillar 5: Customer onboarding
+(no new onboarding-KPI study dated 19–21 Jul. Standing benchmarks unchanged: Sumsub iGaming fraud rate 1.53% Q1 2026 (+18% YoY); Signicat ~68% fintech drop-off; 2025 survey of 600 FIs — 70% lost prospects to slow onboarding; ~70% abandon KYC flows over three minutes. Cross-ref P6: the Hopae/Brazil CNH verification is an onboarding-adjacent signal for regulated-FS/mobility/gaming remote onboarding in LATAM.)
+
+### Pillar 6: Identity verification (IDV)
+- **Hopae adds remote biometric verification of Brazil's digital driver's license (CNH / Carteira Digital de Trânsito), targeting regulated financial services, mobility and online gaming (July 20, 2026)** — Hopae integrated automated biometric-verification modules into Brazil's national digital-driver's-license framework (CDT). The flow decodes the credential's QR code, has the user take a live selfie, and compares it against the photo held in the official driver-registry record (checked against Brazil's tax authority and **SENATRAN**, the National Traffic Secretariat), returning a similarity score and confidence rating. It also introduces a **passive facial-liveness check at download/provisioning time** — a user must pass liveness before the digital CNH can be downloaded or modified on a device — explicitly to stop unauthorised third parties loading a valid identity profile onto compromised hardware. For Ditto: this is a clean, on-thesis IDV datapoint in a Tier-1 LATAM market — remote verification of a government-issued digital credential, with liveness at *both* provisioning and presentation and a source-of-truth registry check. Directly Ditto Verify-adjacent; strong /LATAM fit. Market datapoint — do not name a vendor.
+  - Source: https://idtechwire.com/hopae-adds-biometric-verification-for-brazils-digital-drivers-license/
+  - Source: https://idtechwire.com/id-tech-digest-july20-2026/
+  - Date: 2026-07-20
+
+(No new iBeta / NIST IAL / FIDO Document Authenticity output confirmed 19–21 Jul. **AAMVA mDL Implementation Guidelines 1.6** is sourced as "released July 2026" with no precise in-window date — standing mDL context, not carried. NIST SP 800-63 Rev.4 and the FIDO DocAuth programme remain standing context.)
+
+### Pillar 7: Fraud / Deepfakes
+(no new primary-source report or named bank incident dated 19–21 Jul. Standing prints unchanged: AU10TIX Q1 2026 (3.89% confirmed fraud rate, AI-generated fraud dominant); Shufti Identity Fraud Index 2026 (deepfake fraud ~+495% YoY); Sumsub deepfakes ≈11% of fraud (~41% of attempts in Europe); synthetic-identity fraud now ~11% of global fraud, US unsecured-credit losses projected >$3.1B in 2026. LATAM remains the deepfake/social-engineering epicentre — standing context (Brazil Pix social-engineering ~70% of bank fraud; Mexico ATO surge — both evergreen, not new print).)
+
+### Pillar 8: Mobile trust & app security
+(no new named banking-malware campaign or CVE dated 19–21 Jul. Anatsa (Android device-takeover trojan, accessibility-service abuse, overlay + keylogging, dropper apps on Google Play, 650–830+ targeted financial apps, recurring North America + EU campaigns) remains active per threat-intel but no new dated campaign in window. Standing anchors: 07-09 Aduna network-based Number Verification; 07-15 Vida "passwordless success shifts attacker focus to the device.")
+
+### Pillar 9: Passwordless / split-key
+(no new FIDO Alliance specification, regulator OTP-sunset, or major bank passkey deployment confirmed 19–21 Jul. Standing thesis intact: NIST SP 800-63B Rev.4 classes SMS/PSTN OTP as restricted; UAE/RBI/BSP OTP-sunset mandates live; Hong Kong SFC circular (9 Jul) prohibits OTP login/device-binding for internet brokers and VA platforms (deadline 8 Jul 2027); ~15B accounts passkey-capable / FIDO 2026 State of Passkeys; OpenAI hardware-passkey mandate 1 Sep (07-14 delta).)
+
+### Pillar 10: ZKPs in practice
+(no new EU-bank ZKP pilot, OpenID4VP/VCI deployment, or discrete mDL ZKP milestone confirmed 19–21 Jul. Standing context: ZKP support (Longfellow ZK / mdoc, av-lib-ios-longfellow-zkp) is *upcoming* in the EUDI Wallet age-verification implementation; EU Special Panel ZKP age-assurance recommendation (07-15) remains the freshest ZKP-policy signal; OID4VP 1.0 selective-disclosure age proofs remain standing context. Cross-ref P6: the Hopae/Brazil CNH flow used a straight biometric-match model, not a ZKP.)
+
+### Pillar 11: Age assurance & privacy attributes
+(no new discrete regulator print dated 19–21 Jul. Standing hard anchors unchanged: Ofcom first statutory Age Assurance Report + TikTok s.12 probe (16 Jul) — Ofcom update on the TikTok investigation ~October 2026; Ofcom-noticed firms' risk-assessment records due 31 Jul; EU Special Panel ZKP recommendation (07-15); US "Facial Recognition to Protect Children Act" (07-15, facial age *estimation* for sportsbooks); von der Leyen "social-media start age" push, formal proposal expected after summer recess. Cross-ref P6: the Hopae/Brazil CNH item touches online gaming as a named use case — age/identity verification for regulated gaming in LATAM.)
+
+---
+
+## Next-cycle anchors (updated)
+
+- **EU AI Act Code of Practice (transparency of AI-generated content) signatory deadline (July 22, 18:00 CEST)** — TOMORROW; first signatory list to publish ahead of Article 50 enforcement (2 Aug). WATCH for the published list.
+- **FSB AI Sound Practices consultation deadline (July 22)** — tomorrow.
+- **AUSTRAC Tranche 2 enrolment deadline (July 29)** — ~8 days; ~100,000 newly in-scope entities must enrol.
+- **Ofcom-noticed firms' risk-assessment records due (July 31)** — ~10 days; follows the 16 Jul Age Assurance Report + TikTok probe.
+- **EU AI Act Article 50 enforcement (August 2)** — ~12 days; deepfake labelling, AI-content marking, chatbot disclosure become binding (fines up to €15M / 3% global turnover).
+- **Ofcom TikTok investigation** — WATCH: first update expected ~October 2026; first s.12 OSA age-assurance enforcement action against a marquee platform; penalty exposure up to £18M / 10% global revenue.
+- **Hopae / Brazil digital-driver's-license verification (07-20)** — WATCH: first named regulated-FS or online-gaming deployment using CNH remote verification; a template for the broader LATAM mDL-verification market.
+- **UK national digital-ID political friction (Burnham, 07-20)** — WATCH: whether other UK regions/mayors follow, and how the centralisation-vs-federation debate reshapes the UK DVS/BritCard direction (P2).
+- **Precise Biometrics × Fingerprint Cards merger (07-20)** — WATCH: hardware-biometric consolidation completing alongside software-IDV consolidation (Fourthline × Veridas) — track combined-entity positioning.
+- **EU–Japan wallet interoperability follow-through** — WATCH: pilot proved technical feasibility (07-17/07-20); named blocker is mutual recognition / aligned liability rules — track for a formal EU–Japan mutual-recognition step or expansion beyond academic credentials.
+- **Cross-border VC interoperability pattern** — WATCH: EU–Japan + Toppan×Raonsecure Japan–Korea, both academic-credential-first; track for the first bank-account-opening or regulated-sector cross-border credential use.
+- **OpenAI hardware-passkey enforcement (Sept 1)** — Trusted Access members lose elevated model access without a hardware-backed passkey (07-14).
+- **UK DVS Trust Framework 1.0 enforcement (September 1)** — first conformity-assessment-body accreditation.
+- **AMLA Level-2 RTS/ITS → Commission adoption** — 23 measures submitted 10 Jul; adoption typically 3–6 months; AMLR applies 10 Jul 2027. Article 28 CDD RTS defines "compliant" identity verification EU-wide.
+- **Fourthline × Veridas merger closing (H2 2026)** — WATCH: ~115M-verifications/50+-country platform, BBVA + Rabobank-backed (07-17); track first named Tier-1 win under the combined entity.
+- **Agentic identity / agentic payments** — WATCH: FIDO Agentic Authentication WG; Entrust Agentic AI Trust Accelerator (07-14); ITU Focus Group first meeting Paris Nov 2026.
+- **Mercosur cross-border digital ID ratification** — WATCH: accord approved 14 Jul (Asunción); awaiting national-congress ratification; Bolivia and Chile moving to join.
+- **PSD3/PSR OJEU publication** — texts published 23 Apr; ECON recommends second-reading adoption (18 May); OJEU anticipated summer 2026, possibly September.
+
+---
+
+## Run summary
+
+- Findings count by pillar: P1 Banking: 0 | P2 Identity orchestration: 0 in-window (2 directional — Burnham UK national-ID withdrawal, Precise×Fingerprint merger) | P3 EUDI/eIDAS2: 0 | P4 KYC/AML: 0 | P5 Onboarding: 0 | P6 IDV: **1** (Hopae × Brazil CNH remote biometric verification, 20 Jul — PRIMARY) | P7 Fraud/Deepfakes: 0 | P8 Mobile trust: 0 | P9 Passwordless: 0 | P10 ZKP: 0 | P11 Age assurance: 0 — **Total: 1 in-window finding (Hopae/Brazil digital driver's license, 20 Jul).**
+- Override-worthy: **1** — Hopae × Brazil CNH: remote biometric verification of a government-issued digital driver's license (QR + selfie-to-registry match + liveness at provisioning), Tier-1 LATAM market, Ditto Verify-adjacent; account /company.
+- Delta path: research/2026-07-21-cycle-delta.md
+- Note: light Tuesday cycle. One on-thesis in-window finding (Hopae/Brazil CNH, 20 Jul); two same-day directional items (Burnham UK national-ID withdrawal; Precise×Fingerprint hardware merger). Honest exclusions: WA Police FR / Victoria workplace biometrics / Nigeria mining NIN (off-pillar/off-ICP); AAMVA mDL Guidelines 1.6 (no precise in-window date); EU AI Act Code-of-Practice July-22 deadline (standing anchor, list not yet published); Brazil Pix / Mexico CNBV fraud figures (evergreen, not new print). Banking/AML/EUDI/onboarding/fraud/mobile/passwordless/ZKP/age produced no new discrete 19–21 Jul print.
