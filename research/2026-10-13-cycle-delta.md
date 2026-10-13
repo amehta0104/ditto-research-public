@@ -5,7 +5,7 @@ Window: 2026-10-11 -> 2026-10-13 (last 48 hours; the 10-10 Turkish Official Gaze
 ## Provenance and integrity notes
 
 - The worker API was reachable. The brand brief, competitors list and all 11 pillar guides were fetched. Deduplication was checked by keyword against the full research corpus (115 files, through the 2026-10-12 delta).
-- **Encoding bug on the worker:** stored deltas (at least 10-09 and 10-12) have double-encoded UTF-8. An em dash is stored as `c3 a2 c2 80 c2 94`, so the GitHub mirror shows mojibake ("â" instead of dashes, "BurÃ³" instead of "Buró"). The PUT path appears to decode the body as Latin-1. This file is written in ASCII only to avoid it. The worker needs a fix.
+- **Encoding bug on the worker:** stored deltas (at least 10-09 and 10-12) have double-encoded UTF-8. An em dash is stored as `c3 a2 c2 80 c2 94`, so the GitHub mirror shows mojibake in place of dashes and accented letters. The PUT path appears to decode the body as Latin-1. This file is written in ASCII only to avoid it. The worker needs a fix.
 - **Checked and rejected:**
   - Japan FSA IC-chip request: no exchange or bank has announced an image-upload end date since 10-09 (TokenPost, CoinPost, JinaCoin checked). It stays a watch item.
   - Intercede MyID Authenticate (FIDO passkey platform, 10-12) and SecuGen FIDO2 key certification: vendor product news. SecuGen was already logged 10-06.
